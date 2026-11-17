@@ -1,0 +1,254 @@
+{
+    "schema_version": 1,
+    "gerado_em": "2026-11-17T15:57:34+00:00",
+    "ranking": {
+        "id": 6,
+        "nome": "Ranking CMOrSM 2026",
+        "evento": "Campeonato Municipal de Orientação de Santa Maria",
+        "qtd_fontes": 6
+    },
+    "parcial": true,
+    "fontes_apuradas": 4,
+    "fontes_esperadas": 6,
+    "total_itens": 111,
+    "tem_descarte": true,
+    "tem_extra": false,
+    "configuracao_apresentacao": {
+        "descartes": {
+            "tipo": "menores",
+            "quantidade": 2,
+            "fontes_nao_descartaveis": []
+        },
+        "pontuacao_extra": [],
+        "incluir_medias_na_participacao_extra": false
+    },
+    "fontes": [
+        {
+            "id": 12,
+            "ordem": 1,
+            "nome": "Prova 1",
+            "apurada": true
+        },
+        {
+            "id": 13,
+            "ordem": 2,
+            "nome": "Prova 2",
+            "apurada": true
+        },
+        {
+            "id": 14,
+            "ordem": 3,
+            "nome": "Prova 3",
+            "apurada": true
+        },
+        {
+            "id": 15,
+            "ordem": 4,
+            "nome": "Prova 4",
+            "apurada": true
+        },
+        {
+            "id": 16,
+            "ordem": 5,
+            "nome": "Prova 5",
+            "apurada": false
+        },
+        {
+            "id": 17,
+            "ordem": 6,
+            "nome": "Prova 6",
+            "apurada": false
+        }
+    ],
+    "categorias": [
+        {
+            "id": 62,
+            "nome": "D21E",
+            "ordem": 1
+        },
+        {
+            "id": 120,
+            "nome": "H21E",
+            "ordem": 2
+        },
+        {
+            "id": 137,
+            "nome": "H60A",
+            "ordem": 3
+        },
+        {
+            "id": 134,
+            "nome": "H55A",
+            "ordem": 4
+        },
+        {
+            "id": 73,
+            "nome": "D50A",
+            "ordem": 5
+        },
+        {
+            "id": 131,
+            "nome": "H50A",
+            "ordem": 6
+        },
+        {
+            "id": 128,
+            "nome": "H45A",
+            "ordem": 7
+        },
+        {
+            "id": 67,
+            "nome": "D40A",
+            "ordem": 8
+        },
+        {
+            "id": 125,
+            "nome": "H40A",
+            "ordem": 9
+        },
+        {
+            "id": 122,
+            "nome": "H35A",
+            "ordem": 10
+        },
+        {
+            "id": 118,
+            "nome": "H21A",
+            "ordem": 11
+        },
+        {
+            "id": 57,
+            "nome": "D20A",
+            "ordem": 12
+        },
+        {
+            "id": 115,
+            "nome": "H20A",
+            "ordem": 13
+        },
+        {
+            "id": 54,
+            "nome": "D18A",
+            "ordem": 14
+        },
+        {
+            "id": 112,
+            "nome": "H18A",
+            "ordem": 15
+        },
+        {
+            "id": 51,
+            "nome": "D16A",
+            "ordem": 16
+        },
+        {
+            "id": 109,
+            "nome": "H16A",
+            "ordem": 17
+        },
+        {
+            "id": 48,
+            "nome": "D14A",
+            "ordem": 18
+        },
+        {
+            "id": 106,
+            "nome": "H14A",
+            "ordem": 19
+        },
+        {
+            "id": 74,
+            "nome": "D50B",
+            "ordem": 20
+        },
+        {
+            "id": 132,
+            "nome": "H50B",
+            "ordem": 21
+        },
+        {
+            "id": 129,
+            "nome": "H45B",
+            "ordem": 22
+        },
+        {
+            "id": 126,
+            "nome": "H40B",
+            "ordem": 23
+        },
+        {
+            "id": 65,
+            "nome": "D35B",
+            "ordem": 24
+        },
+        {
+            "id": 119,
+            "nome": "H21B",
+            "ordem": 25
+        },
+        {
+            "id": 58,
+            "nome": "D20B",
+            "ordem": 26
+        },
+        {
+            "id": 116,
+            "nome": "H20B",
+            "ordem": 27
+        },
+        {
+            "id": 52,
+            "nome": "D16B",
+            "ordem": 28
+        },
+        {
+            "id": 110,
+            "nome": "H16B",
+            "ordem": 29
+        },
+        {
+            "id": 49,
+            "nome": "D14B",
+            "ordem": 30
+        },
+        {
+            "id": 104,
+            "nome": "H12B",
+            "ordem": 31
+        },
+        {
+            "id": 18,
+            "nome": "D Sênior N",
+            "ordem": 32
+        },
+        {
+            "id": 26,
+            "nome": "H Adulto N",
+            "ordem": 33
+        },
+        {
+            "id": 12,
+            "nome": "D Juvenil N",
+            "ordem": 34
+        },
+        {
+            "id": 34,
+            "nome": "H Juvenil N",
+            "ordem": 35
+        },
+        {
+            "id": 6,
+            "nome": "D Infantil N",
+            "ordem": 36
+        },
+        {
+            "id": 28,
+            "nome": "H Infantil N",
+            "ordem": 37
+        }
+    ],
+    "arquivos": {
+        "resultados": "ranking.csv",
+        "inscricoes_futuras": "inscricoes_futuras.csv"
+    }
+}
