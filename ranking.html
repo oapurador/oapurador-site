@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#102a43">
+    <meta name="description" content="Consulte e simule a classificação do ranking no oApurador.">
+    <title>Ranking interativo · oApurador</title>
+    <link rel="icon" type="image/png" href="assets/icone-oapurador.png">
+    <link rel="apple-touch-icon" href="assets/icone-oapurador.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrap nav">
+        <a class="brand" href="index.html" aria-label="oApurador, início">
+          <img src="assets/logo-oapurador.png" alt="oApurador">
+        </a>
+        <nav aria-label="Navegação principal">
+          <a href="index.html#plataforma">A plataforma</a>
+          <a href="index.html#estrutura">Estrutura</a>
+          <a href="index.html#fluxo">Da inscrição ao ranking</a>
+          <a href="index.html#publico">Para quem</a>
+          <a href="index.html#futuro">Futuro</a>
+          <a href="ranking.html" aria-current="page">CMOrSM 2026</a>
+        </nav>
+        <a class="nav-mobile-link" href="index.html">Início</a>
+        <a class="nav-cta" href="index.html#contato">Conheça o projeto</a>
+      </div>
+    </header>
+
+    <main class="ranking-main">
+      <div class="wrap">
+        <section class="ranking-heading" aria-labelledby="ranking-title">
+          <div>
+            <div class="eyebrow" id="event-name">Campeonato</div>
+            <h1 id="ranking-title">Carregando ranking…</h1>
+            <p id="ranking-status" class="ranking-status" aria-live="polite"></p>
+          </div>
+          <p class="updated">Dados atualizados em <time id="updated-at">—</time></p>
+        </section>
+
+        <section id="controls" class="controls card" hidden>
+          <div class="controls-title">
+            <div>
+              <h2>Simular classificação</h2>
+              <p>Os ajustes abaixo alteram apenas esta visualização.</p>
+            </div>
+            <label id="future-control" class="switch-control" hidden>
+              <input id="show-future" type="checkbox">
+              <span>Exibir inscritos nas competições futuras</span>
+            </label>
+          </div>
+          <div class="sliders">
+            <section id="discard-control" class="range-control" hidden>
+              <div class="range-heading">
+                <label for="discard-range">Resultados descartados</label>
+                <output id="discard-value" for="discard-range">0</output>
+              </div>
+              <input id="discard-range" type="range" min="0" max="0" step="1" value="0">
+              <div id="discard-ticks" class="range-ticks" aria-hidden="true"></div>
+            </section>
+            <section id="bonus-control" class="range-control" hidden>
+              <div class="range-heading">
+                <label for="bonus-range">Aplicar pontuação extra a partir de</label>
+                <output id="bonus-value" for="bonus-range">0 participações</output>
+              </div>
+              <input id="bonus-range" type="range" min="0" max="0" step="1" value="0">
+              <div id="bonus-ticks" class="range-ticks" aria-hidden="true"></div>
+            </section>
+          </div>
+        </section>
+
+        <div class="list-toolbar">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="Buscar categoria, atleta ou entidade" autocomplete="off">
+          </label>
+          <p id="result-count" class="result-count"></p>
+        </div>
+        <p id="average-legend" class="average-legend" hidden>
+          <span aria-hidden="true"></span> Célula amarela: pontuação calculada por média.
+        </p>
+
+        <section id="ranking-list" class="ranking-list" aria-live="polite">
+          <div class="card loading">Carregando os resultados…</div>
+        </section>
+        <p id="empty-state" class="card empty-state" hidden>Nenhum resultado corresponde à busca.</p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrap footer-inner">
+        <a class="footer-brand" href="index.html">oApurador</a>
+        <div>Agilidade · Flexibilidade · Transparência</div>
+        <div class="social">
+          <a href="https://www.instagram.com/oapurador/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.youtube.com/@oApurador" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="mailto:oapurador@gmail.com">E-mail</a>
+        </div>
+        <div>© <span id="year">2026</span> oApurador</div>
+      </div>
+    </footer>
+    <script src="site.js" defer></script>
+  </body>
+</html>
