@@ -87,6 +87,25 @@
           <div class="card loading">Carregando os resultados…</div>
         </section>
         <p id="empty-state" class="card empty-state" hidden>Nenhum resultado corresponde à busca.</p>
+
+        <section id="registrations-section" class="registrations-section" aria-labelledby="registrations-title" hidden>
+          <div class="registrations-heading">
+            <div>
+              <p class="eyebrow">Próxima etapa</p>
+              <h2 id="registrations-title">Inscritos nas competições</h2>
+              <p id="registrations-summary" class="registrations-summary"></p>
+            </div>
+            <label class="group-control" for="registration-grouping">
+              Agrupar
+              <select id="registration-grouping">
+                <option value="none">Sem agrupamento</option>
+                <option value="entity">Por entidade</option>
+                <option value="category">Por categoria</option>
+              </select>
+            </label>
+          </div>
+          <div id="registrations-list" class="registrations-list card" aria-live="polite"></div>
+        </section>
       </div>
     </main>
 

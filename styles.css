@@ -66,11 +66,27 @@ section.category-card { overflow: hidden; padding: 0; background: #fff; border: 
 .country { display: inline-block; margin-left: 5px; color: var(--muted); font-size: .65rem; font-weight: 500; }
 .loading, .empty-state { padding: 24px; color: var(--muted); text-align: center; }
 .empty-state { margin: 0; }
+.ranking-main section.registrations-section { padding: 48px 0 4px; }
+.registrations-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 22px; margin-bottom: 16px; }
+.registrations-heading h2 { margin: 8px 0 4px; color: var(--navy); font-size: clamp(1.6rem, 3vw, 2.25rem); }
+.registrations-heading .eyebrow { margin: 0; }
+.registrations-summary { margin: 0; color: var(--muted); font-size: .88rem; }
+.group-control { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: .88rem; font-weight: 700; white-space: nowrap; }
+.group-control select { min-height: 42px; padding: 0 34px 0 12px; border: 1px solid #aab9c5; border-radius: 9px; background: #fff; color: var(--ink); font: inherit; }
+.registrations-list { overflow: hidden; padding: 0; }
+.registrations-list .table-scroll + .registration-group-title { border-top: 1px solid var(--line); }
+.registration-group-title { margin: 0; padding: 13px 16px; background: #eaf0f6; color: var(--navy); font-size: .96rem; }
+.registration-table { min-width: max-content; }
+.registration-table th:first-child, .registration-table td:first-child { min-width: 220px; text-align: left; }
+.registration-table th:nth-child(2), .registration-table td:nth-child(2), .registration-table th:nth-child(5), .registration-table td:nth-child(5) { min-width: 82px; }
+.registration-table th:nth-child(3), .registration-table td:nth-child(3), .registration-table th:nth-child(4), .registration-table td:nth-child(4) { min-width: 130px; }
+.registration-mark { color: var(--navy); font-weight: 850; }
 
 @media(max-width:800px) {
   .nav-mobile-link { display: inline-flex; }
   .ranking-heading, .controls-title { align-items: flex-start; flex-direction: column; }
   .updated { white-space: normal; }
+  .registrations-heading { align-items: flex-start; flex-direction: column; }
 }
 @media(max-width:700px) {
   .controls { padding: 16px; }
