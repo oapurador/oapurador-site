@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "gerado_em": "2026-11-17T15:57:34+00:00",
+    "gerado_em": "2026-11-21T21:10:48+00:00",
     "ranking": {
         "id": 6,
         "nome": "Ranking CMOrSM 2026",
@@ -77,6 +77,11 @@
             "ordem": 3
         },
         {
+            "id": 79,
+            "nome": "D60A",
+            "ordem": 3
+        },
+        {
             "id": 134,
             "nome": "H55A",
             "ordem": 4
@@ -122,6 +127,11 @@
             "ordem": 12
         },
         {
+            "id": 60,
+            "nome": "D21A",
+            "ordem": 12
+        },
+        {
             "id": 115,
             "nome": "H20A",
             "ordem": 13
@@ -152,6 +162,11 @@
             "ordem": 18
         },
         {
+            "id": 135,
+            "nome": "H55B",
+            "ordem": 19
+        },
+        {
             "id": 106,
             "nome": "H14A",
             "ordem": 19
@@ -177,8 +192,18 @@
             "ordem": 23
         },
         {
+            "id": 123,
+            "nome": "H35B",
+            "ordem": 23
+        },
+        {
             "id": 65,
             "nome": "D35B",
+            "ordem": 24
+        },
+        {
+            "id": 61,
+            "nome": "D21B",
             "ordem": 24
         },
         {
@@ -205,6 +230,11 @@
             "id": 110,
             "nome": "H16B",
             "ordem": 29
+        },
+        {
+            "id": 107,
+            "nome": "H14B",
+            "ordem": 30
         },
         {
             "id": 49,
@@ -247,8 +277,21 @@
             "ordem": 37
         }
     ],
-    "arquivos": {
-        "resultados": "ranking.csv",
-        "inscricoes_futuras": "inscricoes_futuras.csv"
+    "inscricoes_futuras": {
+        "etapa": 3,
+        "provas": [
+            {
+                "fonte_id": 16,
+                "prova_id": 23,
+                "nome": "Prova 5",
+                "data_hora": "2026-11-28T14:00:00+00:00"
+            },
+            {
+                "fonte_id": 17,
+                "prova_id": 24,
+                "nome": "Prova 6",
+                "data_hora": "2026-11-29T10:00:00+00:00"
+            }
+        ]
     }
 }

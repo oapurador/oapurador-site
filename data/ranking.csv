@@ -1,5 +1,5 @@
 ﻿categoria_id,categoria,categoria_ordem,atleta_id,atleta,pais_sigla,entidade_tipo,entidade_sigla,entidade,posicao,empatados,fontes_participadas,pontuacao_parcial,descarte,extra,pontuacao_final,fonte_12_pontuacao,fonte_12_media,fonte_13_pontuacao,fonte_13_media,fonte_14_pontuacao,fonte_14_media,fonte_15_pontuacao,fonte_15_media,fonte_16_pontuacao,fonte_16_media,fonte_17_pontuacao,fonte_17_media
-62,D21E,1,297,"Ana Paula Koeche",BR,Clube,COSM,"Clube de Orientação de Santa Maria",1,false,4,157.00,77.00,,80.00,40.00,false,40.00,false,37.00,false,40.00,false,,false,,false
+62,D21E,1,297,"Ana Paula Koeche",BR,Clube,COSM,"Clube de Orientação de Santa Maria",1,false,4,235.00,77.00,,158.00,40.00,false,40.00,false,37.00,false,40.00,false,39.00,true,39.00,true
 62,D21E,1,127,"Elaine Dalmares Lenz",BR,Clube,COSM,"Clube de Orientação de Santa Maria",2,false,2,149.00,72.00,,77.00,37.00,true,37.00,true,40.00,false,35.00,false,,false,,false
 62,D21E,1,324,"Juliane Valéria de Carvalho Mendonça",BR,Clube,COSM,"Clube de Orientação de Santa Maria",3,false,3,74.00,0.00,,74.00,37.00,false,,false,,false,37.00,false,,false,,false
 62,D21E,1,250,"Letícia Forgiarini Tonetto",BR,Clube,COSM,"Clube de Orientação de Santa Maria",4,false,2,68.00,0.00,,68.00,,false,,false,35.00,false,33.00,false,,false,,false
@@ -13,10 +13,10 @@
 137,H60A,3,308,"Fernando Ferreira Elesbão",BR,Clube,COSM,"Clube de Orientação de Santa Maria",1,true,4,152.00,72.00,,80.00,35.00,false,37.00,false,40.00,false,40.00,false,,false,,false
 137,H60A,3,341,"Paulo Calisto Becker",BR,Clube,COrESC,"Clube de Orientação do Extremo Sul Catarinense",1,true,2,80.00,0.00,,80.00,40.00,false,40.00,false,,false,,false,,false,,false
 137,H60A,3,70,"Elvandir de Vargas",BR,Clube,COSM,"Clube de Orientação de Santa Maria",3,false,4,146.00,72.00,,74.00,37.00,false,35.00,false,37.00,false,37.00,false,,false,,false
-134,H55A,4,67,"Valmor Niedermayer",BR,Clube,COSC,"Clube de Orientação de Santa Cruz",1,false,4,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,false,40.00,false,,false,,false
-134,H55A,4,830,"Araci Acemar Trindade Cavalheiro",BR,Clube,COSM,"Clube de Orientação de Santa Maria",2,false,3,111.00,37.00,,74.00,37.00,false,37.00,false,37.00,false,,false,,false,,false
+134,H55A,4,830,"Araci Acemar Trindade Cavalheiro",BR,Clube,COSM,"Clube de Orientação de Santa Maria",1,false,3,167.00,37.00,,130.00,37.00,false,37.00,false,37.00,false,,false,28.00,true,28.00,true
+134,H55A,4,67,"Valmor Niedermayer",BR,Clube,COSC,"Clube de Orientação de Santa Cruz",2,false,4,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,false,40.00,false,,false,,false
 134,H55A,4,342,"Paulo Moacir Castro Dorneles",BR,Clube,COSM,"Clube de Orientação de Santa Maria",3,false,2,70.00,0.00,,70.00,35.00,false,35.00,false,,false,,false,,false,,false
-73,D50A,5,96,"Vanessa Tassinari Ragazzon",BR,Clube,"ROTA 405","Clube de Orientação Rota 405",1,false,2,80.00,0.00,,80.00,40.00,false,40.00,false,,false,,false,,false,,false
+73,D50A,5,96,"Vanessa Tassinari Ragazzon",BR,Clube,"ROTA 405","Clube de Orientação Rota 405",1,false,2,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,true,40.00,true,,false,,false
 131,H50A,6,831,"Vitor Ribeiro Dias",BR,Clube,COSM,"Clube de Orientação de Santa Maria",1,false,3,120.00,40.00,,80.00,40.00,false,40.00,false,40.00,false,,false,,false,,false
 131,H50A,6,867,"Gilson Schropfer",BR,Clube,CASUSA,"Casa dos Subtenentes e Sargentos de Santo Ângelo",2,false,2,77.00,0.00,,77.00,,false,,false,37.00,false,40.00,false,,false,,false
 131,H50A,6,458,"Everton Santos da Silva",BR,Clube,COSM,"Clube de Orientação de Santa Maria",3,false,4,144.00,70.00,,74.00,35.00,false,37.00,false,35.00,false,37.00,false,,false,,false
