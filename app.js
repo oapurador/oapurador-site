@@ -124,7 +124,7 @@ function prepararInscricoesFuturas() {
     if (!state.futureByKey.has(chave)) {
       state.futureByKey.set(chave, { dados: inscricao, fontes: new Set() });
     }
-    const fonteId = inteiro(inscricao.fonte_id);
+    const fonteId = fonteIdDaInscricao(inscricao);
     if (fonteId !== null) state.futureByKey.get(chave).fontes.add(fonteId);
   }
 }
@@ -141,6 +141,7 @@ function prepararRegistrosInscritos() {
         sicards: new Set(),
         categorias: new Set(),
         provas: new Set(),
+        horariosPorProva: new Map(),
       });
     }
     const atleta = atletas.get(id);
@@ -148,7 +149,12 @@ function prepararRegistrosInscritos() {
     if (row.entidade_sigla || row.entidade) atleta.entidades.add(row.entidade_sigla || row.entidade);
     if (row.sicard) atleta.sicards.add(row.sicard);
     if (row.categoria) atleta.categorias.add(row.categoria);
-    if (row.fonte_id) atleta.provas.add(String(row.fonte_id));
+    const fonteId = fonteIdDaInscricao(row);
+    if (fonteId !== null) {
+      const chaveProva = String(fonteId);
+      atleta.provas.add(chaveProva);
+      if (row.partida) atleta.horariosPorProva.set(chaveProva, row.partida);
+    }
   }
   state.registrations = Array.from(atletas.values())
     .map((atleta) => ({
@@ -169,7 +175,8 @@ function renderizarInscritos() {
 
   const provas = new Map();
   for (const row of state.futureRows) {
-    const id = String(row.fonte_id || '');
+    const fonteId = fonteIdDaInscricao(row);
+    const id = fonteId === null ? '' : String(fonteId);
     if (!id) continue;
     if (!provas.has(id)) provas.set(id, { id, nome: row.prova || `Prova ${id}`, data: row.prova_data || '' });
   }
@@ -220,9 +227,11 @@ function renderizarInscritos() {
       for (const prova of colunasProva) {
         const td = document.createElement('td');
         if (atleta.provas.has(prova.id)) {
-          td.textContent = 'X';
+          td.textContent = atleta.horariosPorProva.get(prova.id) || 'X';
           td.className = 'registration-mark';
-          td.title = 'Inscrito nesta prova';
+          td.title = atleta.horariosPorProva.has(prova.id)
+            ? `Horário de partida: ${atleta.horariosPorProva.get(prova.id)}`
+            : 'Inscrito, sem horário de partida atribuído';
         } else {
           td.textContent = '—';
         }
@@ -525,6 +534,20 @@ function montarTabela(itens, fontes, meta) {
 
 function chaveParticipante(categoriaId, atletaId) {
   return `${inteiro(categoriaId) ?? ''}:${inteiro(atletaId) ?? ''}`;
+}
+
+function fonteIdDaInscricao(inscricao) {
+  const fontes = state.manifest?.fontes ?? [];
+  const fonteInformada = inteiro(inscricao.fonte_id);
+  if (fonteInformada !== null && fontes.some((fonte) => Number(fonte.id) === fonteInformada)) {
+    return fonteInformada;
+  }
+  const provaId = inteiro(inscricao.prova_id);
+  if (provaId !== null) {
+    const fonte = fontes.find((item) => Number(item.prova_id) === provaId);
+    if (fonte) return Number(fonte.id);
+  }
+  return null;
 }
 
 function primeiroNumero(objeto, chaves) {
