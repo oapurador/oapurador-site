@@ -18,7 +18,7 @@ Site estático para publicação no GitHub Pages. A pasta contém a página inst
 
 Mantenha `index.html`, `ranking.html`, `styles.css`, `site.js`, `app.js`, `assets/` e `data/` juntos na raiz publicada pelo GitHub Pages. Os caminhos entre os arquivos são relativos.
 
-Quando o ranking mudar, use a exportação GitHub na página de resultados para gerar `ranking.csv` e `manifest.json`; substitua os dois arquivos em `data/` e envie a pasta ao repositório. A simulação de descartes e bônus acontece no navegador; não há login, API ou exportação PDF nesta versão.
+Quando o ranking mudar, use a exportação GitHub na página de resultados para baixar um ZIP com `data/ranking.csv` e `data/manifest.json`. Extraia o ZIP na raiz deste site, substituindo os arquivos anteriores, e envie a pasta ao repositório. A simulação de descartes e bônus acontece no navegador; não há login, API ou exportação PDF nesta versão.
 
 Para testar localmente, execute `python -m http.server 8000` nesta pasta e abra `http://localhost:8000`. Abrir `ranking.html` diretamente como `file://` pode impedir o navegador de carregar os CSVs.
 
