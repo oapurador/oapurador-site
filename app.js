@@ -1,11 +1,11 @@
 const DATA_DIR = 'data/';
+const rankingId = new URLSearchParams(window.location.search).get('ranking');
+let rankingDir = '';
 const state = {
   manifest: null,
   rows: [],
   futureRows: [],
   futureByKey: new Map(),
-  registrations: [],
-  registrationGrouping: 'none',
   discardCount: 0,
   bonusMinimum: 0,
   showFuture: false,
@@ -32,37 +32,41 @@ const elements = {
   empty: document.querySelector('#empty-state'),
   count: document.querySelector('#result-count'),
   averageLegend: document.querySelector('#average-legend'),
-  registrationsSection: document.querySelector('#registrations-section'),
-  registrationsSummary: document.querySelector('#registrations-summary'),
-  registrationsList: document.querySelector('#registrations-list'),
-  registrationGrouping: document.querySelector('#registration-grouping'),
 };
 
 async function carregar() {
   try {
-    const [manifestResponse, csvResponse, futureCsv] = await Promise.all([
-      fetch(`${DATA_DIR}manifest.json`),
-      fetch(`${DATA_DIR}ranking.csv`),
-      fetch(`${DATA_DIR}inscricoes_futuras.csv`).catch(() => null),
+    let id = rankingId;
+    if (!id) {
+      const eventResponse = await fetch(`${DATA_DIR}evento.json`);
+      if (!eventResponse.ok) throw new Error('O manifesto do evento não foi encontrado.');
+      const eventData = await eventResponse.json();
+      id = eventData.evento.ranking_id;
+    }
+    rankingDir = `${DATA_DIR}rankings/${encodeURIComponent(id)}/`;
+    const manifestResponse = await fetch(`${rankingDir}manifest.json`);
+    if (!manifestResponse.ok) throw new Error('Os arquivos de dados do ranking não foram encontrados.');
+    state.manifest = await manifestResponse.json();
+    const arquivoInscricoes = state.manifest.inscricoes_futuras?.arquivo || 'inscricoes_futuras.csv';
+    const [csvResponse, futureCsv] = await Promise.all([
+      fetch(`${rankingDir}ranking.csv`),
+      fetch(`${DATA_DIR}${arquivoInscricoes}`).catch(() => null),
     ]);
-    if (!manifestResponse.ok || !csvResponse.ok) {
+    if (!csvResponse.ok) {
       throw new Error('Os arquivos de dados do ranking não foram encontrados.');
     }
 
-    state.manifest = await manifestResponse.json();
     state.rows = objetosCsv(await csvResponse.text());
     if (futureCsv?.ok) {
       state.futureRows = objetosCsv(await futureCsv.text());
     }
     prepararInscricoesFuturas();
-    prepararRegistrosInscritos();
     elements.averageLegend.hidden = !state.rows.some((linha) =>
       state.manifest.fontes.some((fonte) => linha[`fonte_${fonte.id}_media`] === 'true'),
     );
     prepararCabecalho();
     prepararControles();
     renderizar();
-    renderizarInscritos();
   } catch (error) {
     const mensagem = window.location.protocol === 'file:'
       ? 'O navegador bloqueia a leitura dos CSVs quando a página é aberta como arquivo local. Inicie um servidor nesta pasta com “python -m http.server 8000” e abra http://localhost:8000/ranking.html.'
@@ -127,123 +131,6 @@ function prepararInscricoesFuturas() {
     const fonteId = fonteIdDaInscricao(inscricao);
     if (fonteId !== null) state.futureByKey.get(chave).fontes.add(fonteId);
   }
-}
-
-function prepararRegistrosInscritos() {
-  const atletas = new Map();
-  for (const row of state.futureRows) {
-    const id = row.atleta_id || normalizar(row.atleta);
-    if (!atletas.has(id)) {
-      atletas.set(id, {
-        atleta: row.atleta || '',
-        peitorais: new Set(),
-        entidades: new Set(),
-        sicards: new Set(),
-        categorias: new Set(),
-        provas: new Set(),
-        horariosPorProva: new Map(),
-      });
-    }
-    const atleta = atletas.get(id);
-    if (row.peitoral) atleta.peitorais.add(row.peitoral);
-    if (row.entidade_sigla || row.entidade) atleta.entidades.add(row.entidade_sigla || row.entidade);
-    if (row.sicard) atleta.sicards.add(row.sicard);
-    if (row.categoria) atleta.categorias.add(row.categoria);
-    const fonteId = fonteIdDaInscricao(row);
-    if (fonteId !== null) {
-      const chaveProva = String(fonteId);
-      atleta.provas.add(chaveProva);
-      if (row.partida) atleta.horariosPorProva.set(chaveProva, row.partida);
-    }
-  }
-  state.registrations = Array.from(atletas.values())
-    .map((atleta) => ({
-      ...atleta,
-      peitoral: Array.from(atleta.peitorais).sort().join(' / '),
-      entidade: Array.from(atleta.entidades).sort((a, b) => a.localeCompare(b, 'pt-BR')).join(' / '),
-      sicard: Array.from(atleta.sicards).sort().join(' / '),
-      categoria: Array.from(atleta.categorias).sort((a, b) => a.localeCompare(b, 'pt-BR')).join(' / '),
-    }))
-    .sort((a, b) => a.atleta.localeCompare(b.atleta, 'pt-BR'));
-}
-
-function renderizarInscritos() {
-  if (!elements.registrationsSection || !elements.registrationsList) return;
-  const registros = state.registrations;
-  elements.registrationsSection.hidden = registros.length === 0;
-  if (registros.length === 0) return;
-
-  const provas = new Map();
-  for (const row of state.futureRows) {
-    const fonteId = fonteIdDaInscricao(row);
-    const id = fonteId === null ? '' : String(fonteId);
-    if (!id) continue;
-    if (!provas.has(id)) provas.set(id, { id, nome: row.prova || `Prova ${id}`, data: row.prova_data || '' });
-  }
-  const colunasProva = Array.from(provas.values()).sort((a, b) =>
-    a.data.localeCompare(b.data) || Number(a.id) - Number(b.id),
-  );
-  elements.registrationsSummary.textContent = `${registros.length} atletas inscritos · ${colunasProva.length} provas da última etapa`;
-
-  const agrupamento = state.registrationGrouping;
-  const grupos = new Map();
-  for (const registro of registros) {
-    const chave = agrupamento === 'entity' ? (registro.entidade || 'Sem entidade')
-      : agrupamento === 'category' ? (registro.categoria || 'Sem categoria')
-        : '';
-    if (!grupos.has(chave)) grupos.set(chave, []);
-    grupos.get(chave).push(registro);
-  }
-  const fragmento = document.createDocumentFragment();
-  const chaves = Array.from(grupos.keys()).sort((a, b) => a.localeCompare(b, 'pt-BR'));
-  for (const chave of chaves) {
-    const integrantes = grupos.get(chave).sort((a, b) => a.atleta.localeCompare(b.atleta, 'pt-BR'));
-    if (agrupamento !== 'none') {
-      const tituloGrupo = document.createElement('h3');
-      tituloGrupo.className = 'registration-group-title';
-      tituloGrupo.textContent = `${chave} · ${integrantes.length}`;
-      fragmento.append(tituloGrupo);
-    }
-    const wrapper = document.createElement('div');
-    wrapper.className = 'table-scroll';
-    const tabela = document.createElement('table');
-    tabela.className = 'registration-table';
-    const thead = document.createElement('thead');
-    const cabecalho = document.createElement('tr');
-    for (const nome of ['Atleta', 'Peitoral', 'Categoria', 'Entidade', 'SiCard', ...colunasProva.map((prova) => prova.nome)]) {
-      const th = document.createElement('th');
-      th.textContent = nome;
-      cabecalho.append(th);
-    }
-    thead.append(cabecalho);
-    const tbody = document.createElement('tbody');
-    for (const atleta of integrantes) {
-      const tr = document.createElement('tr');
-      for (const valor of [atleta.atleta, atleta.peitoral || '—', atleta.categoria || '—', atleta.entidade || '—', atleta.sicard || '—']) {
-        const td = document.createElement('td');
-        td.textContent = valor;
-        tr.append(td);
-      }
-      for (const prova of colunasProva) {
-        const td = document.createElement('td');
-        if (atleta.provas.has(prova.id)) {
-          td.textContent = atleta.horariosPorProva.get(prova.id) || 'X';
-          td.className = 'registration-mark';
-          td.title = atleta.horariosPorProva.has(prova.id)
-            ? `Horário de partida: ${atleta.horariosPorProva.get(prova.id)}`
-            : 'Inscrito, sem horário de partida atribuído';
-        } else {
-          td.textContent = '—';
-        }
-        tr.append(td);
-      }
-      tbody.append(tr);
-    }
-    tabela.append(thead, tbody);
-    wrapper.append(tabela);
-    fragmento.append(wrapper);
-  }
-  elements.registrationsList.replaceChildren(fragmento);
 }
 
 function prepararCabecalho() {
@@ -589,8 +476,4 @@ function escapar(valor) {
 }
 
 elements.search.addEventListener('input', renderizar);
-elements.registrationGrouping?.addEventListener('change', () => {
-  state.registrationGrouping = elements.registrationGrouping.value;
-  renderizarInscritos();
-});
 carregar();

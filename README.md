@@ -1,24 +1,29 @@
-# Site do oApurador e ranking interativo
+# Site do oApurador e evento público
 
-Site estático para publicação no GitHub Pages. A pasta contém a página institucional e o ranking interativo de 2026, com arquivos e links relativos para que o conjunto possa ser copiado para a raiz do repositório publicado.
+Site estático para publicação no GitHub Pages. A pasta contém a página institucional, o hub do evento, rankings interativos, inscrições e páginas de resultados de prova. Os caminhos são relativos para copiar o conjunto para a raiz do repositório publicado.
 
 ## Arquivos
 
 - `index.html`: página institucional do oApurador.
 - `ranking.html`: ranking interativo, com o mesmo cabeçalho, rodapé e folha de estilos da página institucional.
+- `eventos.html`: visão hierárquica de evento, etapas e provas.
+- `inscricoes.html`: relação separada de atletas inscritos, com agrupamento por entidade/categoria e colunas para as provas da etapa.
+- `resultados.html`: resultados por prova, agrupados por categoria e com ajustes no tooltip do atleta.
 - `styles.css`: estilos compartilhados entre as duas páginas e estilos específicos do ranking.
 - `site.js`: atualiza o ano do rodapé.
-- `app.js`: carrega os dados e implementa busca e simulações do ranking no navegador.
-- `data/manifest.json`: nome do ranking, competições, categorias e configurações de descarte e bônus.
-- `data/ranking.csv`: pontuação agregada por atleta/categoria e contribuições por competição.
+- `app.js`: carrega o ranking solicitado por ID e implementa busca e simulações no navegador.
+- `eventos.js`, `inscricoes.js` e `resultados.js`: carregam e apresentam os respectivos dados públicos.
+- `data/evento.json`: relações do evento, etapas, rankings e provas. É o índice que aponta os caminhos dos CSVs.
+- `data/rankings/{id}/manifest.json` e `ranking.csv`: manifesto e pontuação agregada de cada ranking, sempre no mesmo padrão para ranking de evento ou de etapa.
+- `data/provas/{id}/resultados.csv`: resultados de uma prova, com categoria, percurso, tempos, pontos, situação e ajustes.
 - `data/inscricoes_futuras.csv`: modelo para inscrições em competições futuras; quando preenchido, habilita essa opção na página.
 - `assets/logo-oapurador.png` e `assets/icone-oapurador.png`: identidade visual e ícone das páginas.
 
 ## Publicação e atualização
 
-Mantenha `index.html`, `ranking.html`, `styles.css`, `site.js`, `app.js`, `assets/` e `data/` juntos na raiz publicada pelo GitHub Pages. Os caminhos entre os arquivos são relativos.
+Mantenha as páginas HTML/JS, `styles.css`, `site.js`, `assets/` e `data/` juntos na raiz publicada pelo GitHub Pages. Os caminhos entre os arquivos são relativos. A página `index.html` direciona para `eventos.html`.
 
-Quando o ranking mudar, use a exportação GitHub na página de resultados para baixar um ZIP com `data/ranking.csv` e `data/manifest.json`. Extraia o ZIP na raiz deste site, substituindo os arquivos anteriores, e envie a pasta ao repositório. A simulação de descartes e bônus acontece no navegador; não há login, API ou exportação PDF nesta versão.
+Quando um ranking mudar, use a exportação GitHub na página de resultados do ranking. O ZIP salva os arquivos em `data/rankings/{id}/`, sem distinção especial entre ranking de etapa e ranking de evento. Para cada prova, use a opção `CSV do site público (GitHub)` em HubProvas → Resultados; o ZIP cria `data/provas/{id}/resultados.csv`. Extraia cada ZIP na raiz deste site, substituindo os arquivos correspondentes, e envie a pasta atualizada ao repositório. A simulação do ranking acontece no navegador; as páginas públicas não usam login nem API.
 
 Para testar localmente, execute `python -m http.server 8000` nesta pasta e abra `http://localhost:8000`. Abrir `ranking.html` diretamente como `file://` pode impedir o navegador de carregar os CSVs.
 
@@ -32,6 +37,6 @@ Preencha `data/inscricoes_futuras.csv` com estas colunas:
 categoria_id,categoria,atleta_id,atleta,peitoral,entidade_sigla,entidade,sicard,fonte_id,prova_id,prova,prova_data,partida
 ```
 
-Use os IDs e nomes das categorias e competições definidos em `data/manifest.json`. `fonte_id` pode ser preenchido diretamente; se estiver vazio, a página relaciona a inscrição usando `prova_id` e o `prova_id` da fonte no manifesto. Na coluna da competição, é exibido o horário de `partida` quando definido, `X` para inscrição sem horário e `—` quando o atleta não está inscrito.
+Use os IDs e nomes definidos em `data/evento.json` e no manifesto do ranking. A relação é acessada na própria linha da etapa que antecede as inscrições. Na coluna da prova, é exibido o horário de `partida` quando definido, `X` para inscrição sem horário e `—` quando o atleta não está inscrito. O agrupamento da página pode ser desligado ou feito por entidade/categoria.
 
-Os CSVs do GitHub usam vírgula como separador e UTF-8, sem o prefixo `sep=;` usado nos arquivos voltados ao Excel. A exportação GitHub na página de resultados gera o `ranking.csv` com as colunas esperadas pelo ranking interativo e o `manifest.json` com estado das competições, configurações e ordem das categorias.
+Os CSVs do GitHub usam vírgula como separador e UTF-8, sem o prefixo `sep=;` usado nos arquivos voltados ao Excel. As páginas do evento, ranking e resultados esperam os caminhos relativos listados nos manifestos. Os rankings de etapa aparecem como pendentes até os respectivos CSVs serem exportados e publicados.
