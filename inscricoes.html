@@ -3,17 +3,20 @@
   <head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#102a43">
     <meta name="description" content="Inscrições das provas de uma etapa do evento."><title>Inscrições · oApurador</title>
-    <link rel="icon" type="image/png" href="assets/icone-oapurador.png"><link rel="stylesheet" href="styles.css"><script src="inscricoes.js" defer></script>
+    <link rel="icon" type="image/png" href="assets/icone-oapurador.png"><link rel="stylesheet" href="styles.css"><script src="arvore_evento.js" defer></script><script src="inscricoes.js" defer></script>
   </head>
   <body>
     <header><div class="wrap nav"><a class="brand" href="index.html" aria-label="oApurador, início"><img src="assets/logo-oapurador.png" alt="oApurador"></a>
       <nav aria-label="Navegação principal"><a href="index.html#plataforma">A plataforma</a><a href="index.html#estrutura">Estrutura</a><a href="index.html#fluxo">Da inscrição ao ranking</a><a href="index.html#publico">Para quem</a><a href="index.html#futuro">Futuro</a><a href="eventos.html">Eventos</a></nav><a class="nav-mobile-link" href="eventos.html">Eventos</a><a class="nav-cta" href="index.html#contato">Conheça o projeto</a>
     </div></header>
-    <main class="public-main"><div class="wrap">
+    <main class="public-main"><div class="wrap event-layout">
+      <aside class="event-tree card" id="event-tree" aria-label="Navegação do evento"><div class="loading">Carregando navegação…</div></aside>
+      <div class="event-content">
       <section class="public-heading"><p class="eyebrow" id="registration-event">Evento</p><h1 id="registration-title">Inscritos</h1><p class="public-lead" id="registration-summary"></p>
         <div class="registration-toolbar"><label class="group-control" for="registration-grouping">Agrupar<select id="registration-grouping"><option value="none">Sem agrupamento</option><option value="entity">Por entidade</option><option value="category">Por categoria</option></select></label></div>
       </section>
       <section id="registrations-list" class="registrations-list card" aria-live="polite"><div class="loading">Carregando inscrições…</div></section>
+      </div>
     </div></main>
     <footer><div class="wrap footer-inner"><a class="footer-brand" href="index.html">oApurador</a><div>Agilidade · Flexibilidade · Transparência</div><div class="social"><a href="https://www.instagram.com/oapurador/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.youtube.com/@oApurador" target="_blank" rel="noopener noreferrer">YouTube</a><a href="mailto:oapurador@gmail.com">E-mail</a></div><div>© <span id="year">2026</span> oApurador</div></div></footer><script src="site.js" defer></script>
   </body>

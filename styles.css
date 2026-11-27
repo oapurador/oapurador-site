@@ -98,6 +98,19 @@ section.category-card { overflow: hidden; padding: 0; background: #fff; border: 
 
 /* Hub público do evento, relações de inscritos e resultados por prova. */
 .public-main { min-height: 65vh; padding: 34px 0 58px; }
+.event-layout { display: grid; grid-template-columns: 205px minmax(0, 1fr); gap: 22px; align-items: start; }
+.event-content { min-width: 0; }
+.event-tree { position: sticky; top: 91px; max-height: calc(100vh - 108px); overflow: auto; padding: 15px 13px; }
+.event-tree-nav h2 { margin: 0 0 10px; padding: 0 5px 9px; border-bottom: 1px solid var(--line); color: var(--navy); font-size: .98rem; letter-spacing: -.2px; }
+.event-tree-nav ul { list-style: none; margin: 0; padding: 0 0 0 13px; }
+.event-tree-nav > ul { padding-left: 0; }
+.event-tree-nav li { position: relative; margin: 2px 0; padding-left: 12px; border-left: 1px solid #cbd7df; }
+.event-tree-nav li:before { content: ""; position: absolute; top: 14px; left: 0; width: 8px; border-top: 1px solid #cbd7df; }
+.event-tree-nav a, .event-tree-nav .tree-inactive { display: block; padding: 5px 6px; border-radius: 6px; color: #40586a; font-size: .8rem; line-height: 1.35; }
+.event-tree-nav a:hover { background: #f1f5f8; color: var(--navy); }
+.event-tree-nav a[aria-current="page"] { background: #eaf0f6; color: var(--navy); font-weight: 800; }
+.event-tree-nav .tree-inactive { color: #8a9aa6; }
+.tree-error { margin: 0; color: var(--muted); font-size: .82rem; }
 .public-main section { padding: 0; }
 .public-heading { margin: 0 0 26px; }
 .public-heading .eyebrow { margin: 0; }
@@ -138,6 +151,8 @@ section.category-card { overflow: hidden; padding: 0; background: #fff; border: 
 .public-result-table td.has-adjustment { cursor: help; text-decoration: underline dotted #8093a1; text-underline-offset: 3px; }
 .public-result-table tr:last-child td { border-bottom: 0; }
 @media(max-width:800px) {
+  .event-layout { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .event-tree { top: 76px; max-height: 30vh; }
   .stage-heading { align-items: flex-start; flex-direction: column; }
   .registration-toolbar { justify-content: flex-start; }
   .result-category-heading { align-items: flex-start; flex-direction: column; }

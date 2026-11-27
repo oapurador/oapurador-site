@@ -47,7 +47,7 @@ async function carregar() {
     const manifestResponse = await fetch(`${rankingDir}manifest.json`);
     if (!manifestResponse.ok) throw new Error('Os arquivos de dados do ranking não foram encontrados.');
     state.manifest = await manifestResponse.json();
-    const arquivoInscricoes = state.manifest.inscricoes_futuras?.arquivo || 'inscricoes_futuras.csv';
+    const arquivoInscricoes = state.manifest.inscricoes_futuras?.arquivo || 'etapas/3/inscricoes.csv';
     const [csvResponse, futureCsv] = await Promise.all([
       fetch(`${rankingDir}ranking.csv`),
       fetch(`${DATA_DIR}${arquivoInscricoes}`).catch(() => null),

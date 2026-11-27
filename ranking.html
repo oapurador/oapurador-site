@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="assets/icone-oapurador.png">
     <link rel="apple-touch-icon" href="assets/icone-oapurador.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="arvore_evento.js" defer></script>
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -31,7 +32,9 @@
     </header>
 
     <main class="ranking-main">
-      <div class="wrap">
+      <div class="wrap event-layout">
+        <aside class="event-tree card" id="event-tree" aria-label="Navegação do evento"><div class="loading">Carregando navegação…</div></aside>
+        <div class="event-content">
         <section class="ranking-heading" aria-labelledby="ranking-title">
           <div>
             <div class="eyebrow" id="event-name">Campeonato</div>
@@ -88,6 +91,7 @@
         </section>
         <p id="empty-state" class="card empty-state" hidden>Nenhum resultado corresponde à busca.</p>
 
+        </div>
       </div>
     </main>
 

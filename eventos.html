@@ -8,6 +8,7 @@
     <title>Eventos · oApurador</title>
     <link rel="icon" type="image/png" href="assets/icone-oapurador.png">
     <link rel="stylesheet" href="styles.css">
+    <script src="arvore_evento.js" defer></script>
     <script src="eventos.js" defer></script>
   </head>
   <body>
@@ -18,11 +19,14 @@
       </nav>
       <a class="nav-mobile-link" href="index.html">Início</a><a class="nav-cta" href="index.html#contato">Conheça o projeto</a>
     </div></header>
-    <main class="public-main"><div class="wrap">
+    <main class="public-main"><div class="wrap event-layout">
+      <aside class="event-tree card" id="event-tree" aria-label="Navegação do evento"><div class="loading">Carregando navegação…</div></aside>
+      <div class="event-content">
       <section class="public-heading"><p class="eyebrow">Evento</p><h1 id="event-title">Carregando evento…</h1><p id="event-subtitle" class="public-lead"></p>
         <a id="event-ranking" class="button" hidden>Ranking do evento</a>
       </section>
       <section class="event-stages" id="stages" aria-live="polite"><div class="card loading">Carregando etapas…</div></section>
+      </div>
     </div></main>
     <footer><div class="wrap footer-inner"><a class="footer-brand" href="index.html">oApurador</a><div>Agilidade · Flexibilidade · Transparência</div><div class="social"><a href="https://www.instagram.com/oapurador/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.youtube.com/@oApurador" target="_blank" rel="noopener noreferrer">YouTube</a><a href="mailto:oapurador@gmail.com">E-mail</a></div><div>© <span id="year">2026</span> oApurador</div></div></footer>
     <script src="site.js" defer></script>

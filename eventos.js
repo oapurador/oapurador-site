@@ -11,13 +11,13 @@ async function carregarEvento() {
     ranking.href = `ranking.html?ranking=${encodeURIComponent(evento.ranking_id)}`;
     ranking.hidden = false;
 
-    lista.replaceChildren(...await Promise.all(dados.etapas.map((etapa, index) => montarEtapa(etapa, index, dados.etapas))));
+    lista.replaceChildren(...await Promise.all(dados.etapas.map((etapa) => montarEtapa(etapa))));
   } catch (erro) {
     lista.innerHTML = `<div class="card loading">${escapar(erro.message)}</div>`;
   }
 }
 
-async function montarEtapa(etapa, index, etapas) {
+async function montarEtapa(etapa) {
   const card = document.createElement('section');
   card.className = 'stage-card card';
   const topo = document.createElement('div');
@@ -29,23 +29,24 @@ async function montarEtapa(etapa, index, etapas) {
     const url = `ranking.html?ranking=${encodeURIComponent(etapa.ranking_id)}`;
     const existe = await recursoExiste(`data/rankings/${encodeURIComponent(etapa.ranking_id)}/manifest.json`);
     if (existe) {
-    const link = document.createElement('a');
-    link.className = 'text-link';
-    link.href = url;
-    link.textContent = 'Ranking da etapa';
-    acoes.append(link);
-    } else {
-    const pendente = document.createElement('span');
-    pendente.className = 'pending-link';
-    pendente.textContent = 'Ranking da etapa · dados pendentes';
-    acoes.append(pendente);
+      const link = document.createElement('a');
+      link.className = 'text-link';
+      link.href = url;
+      link.textContent = 'Ranking da etapa';
+      acoes.append(link);
+    } else if (etapa.inscricoes && await recursoExiste(`data/${etapa.inscricoes.arquivo}`)) {
+      const link = document.createElement('a');
+      link.className = 'text-link';
+      link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.numero)}`;
+      link.textContent = `Inscritos · ${etapa.nome}`;
+      acoes.append(link);
     }
   }
-  if (etapa.inscricoes_proxima_etapa) {
+  if (!etapa.ranking_id && etapa.inscricoes && await recursoExiste(`data/${etapa.inscricoes.arquivo}`)) {
     const link = document.createElement('a');
     link.className = 'text-link';
-    link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.inscricoes_proxima_etapa.etapa || etapas[index + 1]?.numero || etapa.numero + 1)}`;
-    link.textContent = 'Inscritos da próxima etapa';
+    link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.numero)}`;
+    link.textContent = `Inscritos · ${etapa.nome}`;
     acoes.append(link);
   }
   if (acoes.childElementCount) topo.append(acoes);
