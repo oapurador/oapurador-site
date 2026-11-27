@@ -26,17 +26,17 @@ async function carregarArvoreEvento() {
       const itemEtapa = document.createElement('li');
       const filhosEtapa = document.createElement('ul');
       let destinoEtapa = null;
-      if (etapa.ranking_id && await existe(`data/rankings/${etapa.ranking_id}/manifest.json`)) {
-        destinoEtapa = {
-          texto: `Ranking · ${etapa.nome}`,
-          href: `ranking.html?ranking=${etapa.ranking_id}`,
-          ativa: `ranking:${etapa.ranking_id}`,
-        };
-      } else if (etapa.inscricoes?.arquivo && await existe(`data/${etapa.inscricoes.arquivo}`)) {
+      if (etapa.inscricoes?.arquivo) {
         destinoEtapa = {
           texto: `Inscritos · ${etapa.nome}`,
           href: `inscricoes.html?etapa=${etapa.numero}`,
           ativa: `inscricoes:${etapa.numero}`,
+        };
+      } else if (etapa.ranking_id && await existe(`data/rankings/${etapa.ranking_id}/manifest.json`)) {
+        destinoEtapa = {
+          texto: `Ranking · ${etapa.nome}`,
+          href: `ranking.html?ranking=${etapa.ranking_id}`,
+          ativa: `ranking:${etapa.ranking_id}`,
         };
       }
       itemEtapa.append(destinoEtapa

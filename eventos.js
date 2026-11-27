@@ -25,28 +25,17 @@ async function montarEtapa(etapa) {
   topo.innerHTML = `<div><p class="eyebrow">Etapa ${etapa.numero}</p><h2>${escapar(etapa.nome)}</h2></div>`;
   const acoes = document.createElement('div');
   acoes.className = 'stage-actions';
-  if (etapa.ranking_id) {
-    const url = `ranking.html?ranking=${encodeURIComponent(etapa.ranking_id)}`;
-    const existe = await recursoExiste(`data/rankings/${encodeURIComponent(etapa.ranking_id)}/manifest.json`);
-    if (existe) {
-      const link = document.createElement('a');
-      link.className = 'text-link';
-      link.href = url;
-      link.textContent = 'Ranking da etapa';
-      acoes.append(link);
-    } else if (etapa.inscricoes && await recursoExiste(`data/${etapa.inscricoes.arquivo}`)) {
-      const link = document.createElement('a');
-      link.className = 'text-link';
-      link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.numero)}`;
-      link.textContent = `Inscritos · ${etapa.nome}`;
-      acoes.append(link);
-    }
-  }
-  if (!etapa.ranking_id && etapa.inscricoes && await recursoExiste(`data/${etapa.inscricoes.arquivo}`)) {
+  if (etapa.inscricoes?.arquivo) {
     const link = document.createElement('a');
     link.className = 'text-link';
     link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.numero)}`;
     link.textContent = `Inscritos · ${etapa.nome}`;
+    acoes.append(link);
+  } else if (etapa.ranking_id && await recursoExiste(`data/rankings/${encodeURIComponent(etapa.ranking_id)}/manifest.json`)) {
+    const link = document.createElement('a');
+    link.className = 'text-link';
+    link.href = `ranking.html?ranking=${encodeURIComponent(etapa.ranking_id)}`;
+    link.textContent = 'Ranking da etapa';
     acoes.append(link);
   }
   if (acoes.childElementCount) topo.append(acoes);
