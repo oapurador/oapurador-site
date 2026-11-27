@@ -17,7 +17,7 @@ async function iniciarResultados() {
     if (!resposta.ok) throw new Error('O CSV de resultados desta prova ainda não foi publicado.');
     const rows = parseCsv(await resposta.text());
     resultadosPublicados = rows;
-    provaPorPontos = Boolean(prova.por_pontos);
+    provaPorPontos = Boolean(prova.porpontos);
     renderizar();
   } catch (erro) { areaResultados.innerHTML = `<div class="card loading">${escapar(erro.message)}</div>`; }
 }
