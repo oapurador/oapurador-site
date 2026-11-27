@@ -46,7 +46,7 @@ function renderizar() {
     header.innerHTML = `<div><h2>${escapar(base.categoria || 'Sem categoria')}${details ? ` <span>${escapar(details)}</span>` : ''}</h2></div><span class="result-athlete-count">${group.length} ${group.length === 1 ? 'atleta' : 'atletas'}</span>`;
     const scroll = document.createElement('div'); scroll.className = 'table-scroll';
     const table = document.createElement('table'); table.className = 'public-result-table';
-    const headers = ['Pos.', 'Atleta', 'Peitoral', 'Entidade', ...(porPontos ? ['Pontos'] : ['Tempo', 'min/km', 'Diferença'])];
+    const headers = ['Pos.', 'Atleta', 'Peitoral', 'Entidade', ...(provaPorPontos ? ['Pontos'] : ['Tempo', 'min/km', 'Diferença'])];
     const thead = document.createElement('thead'); const trh = document.createElement('tr');
     headers.forEach((name) => { const th = document.createElement('th'); th.textContent = name; if (name === 'Atleta') th.className = 'athlete'; trh.append(th); }); thead.append(trh);
     const body = document.createElement('tbody');
@@ -55,7 +55,7 @@ function renderizar() {
       const situacao = row.situacao_sigla || '';
       const posicao = situacao && situacao !== 'OK' ? situacao : row.posicao || '—';
       const ajuste = getAjusteTooltip(row.ajustes_json);
-      const values = [posicao, row.atleta || '', row.peitoral || '—', row.entidade_sigla || '—', ...(porPontos ? [row.pontos ?? '—'] : [formatTime(row.tempo_segundos), formatPace(row.tempo_segundos, row.distancia_m), row.diferenca || '—'])];
+      const values = [posicao, row.atleta || '', row.peitoral || '—', row.entidade_sigla || '—', ...(provaPorPontos ? [row.pontos ?? '—'] : [formatTime(row.tempo_segundos), formatPace(row.tempo_segundos, row.distancia_m), row.diferenca || '—'])];
       values.forEach((value, index) => {
         const td = document.createElement('td'); td.textContent = String(value ?? '—');
         if (index === 1) { td.className = 'athlete'; if (ajuste) { td.title = ajuste; td.classList.add('has-adjustment'); } }
