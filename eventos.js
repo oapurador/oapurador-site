@@ -25,7 +25,8 @@ async function montarEtapa(etapa) {
   topo.innerHTML = `<div><p class="eyebrow">Etapa ${etapa.numero}</p><h2>${escapar(etapa.nome)}</h2></div>`;
   const acoes = document.createElement('div');
   acoes.className = 'stage-actions';
-  if (etapa.inscricoes?.arquivo) {
+  const arquivoInscricoes = etapa.inscricoes?.arquivo || `etapas/${etapa.numero}/inscricoes.csv`;
+  if (await recursoExiste(`data/${arquivoInscricoes}`)) {
     const link = document.createElement('a');
     link.className = 'text-link';
     link.href = `inscricoes.html?etapa=${encodeURIComponent(etapa.numero)}`;

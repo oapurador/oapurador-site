@@ -11,7 +11,7 @@ async function iniciarInscricoes() {
     const numeroEtapa = Number(new URLSearchParams(location.search).get('etapa') || 3);
     const etapa = evento.etapas.find((item) => item.numero === numeroEtapa);
     if (!etapa) throw new Error(`A etapa ${numeroEtapa} não está configurada.`);
-    const arquivo = etapa.inscricoes?.arquivo || 'etapas/3/inscricoes.csv';
+    const arquivo = etapa.inscricoes?.arquivo || `etapas/${etapa.numero}/inscricoes.csv`;
     provas = etapa.provas || [];
     document.querySelector('#registration-event').textContent = `${evento.evento.sigla} · ${evento.evento.ano}`;
     document.querySelector('#registration-title').textContent = `Inscritos · ${etapa.nome}`;

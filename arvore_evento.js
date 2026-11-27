@@ -26,7 +26,8 @@ async function carregarArvoreEvento() {
       const itemEtapa = document.createElement('li');
       const filhosEtapa = document.createElement('ul');
       let destinoEtapa = null;
-      if (etapa.inscricoes?.arquivo) {
+      const arquivoInscricoes = etapa.inscricoes?.arquivo || `etapas/${etapa.numero}/inscricoes.csv`;
+      if (await existe(`data/${arquivoInscricoes}`)) {
         destinoEtapa = {
           texto: `Inscritos · ${etapa.nome}`,
           href: `inscricoes.html?etapa=${etapa.numero}`,
