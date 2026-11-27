@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "evento": {
+    "id": 13,
+    "nome": "Campeonato Municipal de Orientação de Santa Maria",
+    "sigla": "CMOrSM",
+    "ano": 2026,
+    "ranking_id": 6
+  },
+  "ranking_principal": { "id": 6, "publicado": true },
+  "etapas": [
+    {
+      "id": 15,
+      "numero": 1,
+      "nome": "1ª Etapa",
+      "ranking_id": 4,
+      "ranking_publicado": false,
+      "provas": [
+        { "id": 19, "nome": "Prova 1", "tipo": "Médio", "data": "2026-05-30T14:00:00-03:00", "por_pontos": false, "resultados": "provas/19/resultados.csv" },
+        { "id": 20, "nome": "Prova 2", "tipo": "Médio", "data": "2026-05-31T10:00:00-03:00", "por_pontos": false, "resultados": "provas/20/resultados.csv" }
+      ]
+    },
+    {
+      "id": 16,
+      "numero": 2,
+      "nome": "2ª Etapa",
+      "ranking_id": 7,
+      "ranking_publicado": false,
+      "inscricoes_proxima_etapa": { "etapa": 3, "arquivo": "inscricoes_futuras.csv" },
+      "provas": [
+        { "id": 21, "nome": "Prova 3", "tipo": "Médio", "data": "2026-07-11T14:00:00-03:00", "por_pontos": false, "resultados": "provas/21/resultados.csv" },
+        { "id": 22, "nome": "Prova 4", "tipo": "Médio", "data": "2026-07-12T10:00:00-03:00", "por_pontos": false, "resultados": "provas/22/resultados.csv" }
+      ]
+    },
+    {
+      "id": 17,
+      "numero": 3,
+      "nome": "3ª Etapa",
+      "ranking_id": 8,
+      "ranking_publicado": false,
+      "provas": [
+        { "id": 23, "nome": "Prova 5", "tipo": "Médio", "data": "2026-11-28T14:00:00-03:00", "por_pontos": false, "resultados": "provas/23/resultados.csv" },
+        { "id": 24, "nome": "Prova 6", "tipo": "Médio", "data": "2026-11-29T09:00:00-03:00", "por_pontos": false, "resultados": "provas/24/resultados.csv" }
+      ]
+    }
+  ]
+}
