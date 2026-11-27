@@ -1,0 +1,109 @@
+categoria_id,categoria,categoria_ordem,atleta_id,atleta,pais_sigla,entidade_tipo,entidade_sigla,entidade,posicao,empatados,fontes_participadas,pontuacao_parcial,descarte,extra,pontuacao_final,fonte_12_pontuacao,fonte_12_media,fonte_13_pontuacao,fonte_13_media,fonte_14_pontuacao,fonte_14_media,fonte_15_pontuacao,fonte_15_media,fonte_16_pontuacao,fonte_16_media,fonte_17_pontuacao,fonte_17_media
+62,D21E,1,297,Ana Paula Koeche,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,235.00,77.00,,158.00,40.00,false,40.00,false,37.00,false,40.00,false,39.00,true,39.00,true
+62,D21E,1,127,Elaine Dalmares Lenz,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,2,149.00,72.00,,77.00,37.00,true,37.00,true,40.00,false,35.00,false,,false,,false
+62,D21E,1,324,Juliane Valéria de Carvalho Mendonça,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,3,74.00,0.00,,74.00,37.00,false,,false,,false,37.00,false,,false,,false
+62,D21E,1,250,Letícia Forgiarini Tonetto,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,false,2,68.00,0.00,,68.00,,false,,false,35.00,false,33.00,false,,false,,false
+62,D21E,1,492,Nelci de Souza,BR,Clube,COSM,Clube de Orientação de Santa Maria,5,false,1,35.00,0.00,,35.00,35.00,false,,false,,false,,false,,false,,false
+120,H21E,2,828,Gean Carlos Soares da Silveira,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,227.00,74.00,,153.00,37.00,false,37.00,false,40.00,false,37.00,false,38.00,true,38.00,true
+120,H21E,2,829,Larri Gabriel Hermes Lemes,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,2,80.00,0.00,,80.00,40.00,false,40.00,false,,false,,false,,false,,false
+120,H21E,2,300,Cleber Baratto Vidal,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,2,153.00,75.00,,78.00,38.00,true,38.00,true,37.00,false,40.00,false,,false,,false
+120,H21E,2,522,Jussie Pettine Santos,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,false,2,70.00,0.00,,70.00,,false,35.00,false,35.00,false,,false,,false,,false
+120,H21E,2,263,Matheus Moreira da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,5,false,4,134.00,66.00,,68.00,33.00,false,33.00,false,33.00,false,35.00,false,,false,,false
+120,H21E,2,454,Felipe Kipper,BR,Clube,COSC,Clube de Orientação de Santa Cruz,6,false,2,67.00,0.00,,67.00,35.00,false,32.00,false,,false,,false,,false,,false
+137,H60A,4,308,Fernando Ferreira Elesbão,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,152.00,72.00,,80.00,35.00,false,37.00,false,40.00,false,40.00,false,,false,,false
+137,H60A,4,341,Paulo Calisto Becker,BR,Clube,COrESC,Clube de Orientação do Extremo Sul Catarinense,1,true,2,80.00,0.00,,80.00,40.00,false,40.00,false,,false,,false,,false,,false
+137,H60A,4,70,Elvandir de Vargas,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,146.00,72.00,,74.00,37.00,false,35.00,false,37.00,false,37.00,false,,false,,false
+134,H55A,5,830,Araci Acemar Trindade Cavalheiro,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,3,167.00,37.00,,130.00,37.00,false,37.00,false,37.00,false,,false,28.00,true,28.00,true
+134,H55A,5,67,Valmor Niedermayer,BR,Clube,COSC,Clube de Orientação de Santa Cruz,2,false,4,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,false,40.00,false,,false,,false
+134,H55A,5,342,Paulo Moacir Castro Dorneles,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,2,70.00,0.00,,70.00,35.00,false,35.00,false,,false,,false,,false,,false
+73,D50A,6,96,Vanessa Tassinari Ragazzon,BR,Clube,ROTA 405,Clube de Orientação Rota 405,1,false,2,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,true,40.00,true,,false,,false
+131,H50A,7,831,Vitor Ribeiro Dias,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,3,120.00,40.00,,80.00,40.00,false,40.00,false,40.00,false,,false,,false,,false
+131,H50A,7,867,Gilson Schropfer,BR,Clube,CASUSA,Casa dos Subtenentes e Sargentos de Santo Ângelo,2,false,2,77.00,0.00,,77.00,,false,,false,37.00,false,40.00,false,,false,,false
+131,H50A,7,458,Everton Santos da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,144.00,70.00,,74.00,35.00,false,37.00,false,35.00,false,37.00,false,,false,,false
+131,H50A,7,832,Luís Giovani Severo Schreiner,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,true,4,136.00,66.00,,70.00,33.00,false,35.00,false,33.00,false,35.00,false,,false,,false
+131,H50A,7,472,Valmir Luis Schneider,BR,Clube,COSC,Clube de Orientação de Santa Cruz,4,true,2,70.00,0.00,,70.00,37.00,false,33.00,false,,false,,false,,false,,false
+128,H45A,8,95,Giuliano Ragazzon,BR,Clube,ROTA 405,Clube de Orientação Rota 405,1,false,2,80.00,20.00,,60.00,40.00,false,,false,20.00,true,20.00,true,,false,,false
+128,H45A,8,853,Fábio Fernandes Martins,BR,Clube,Indiv,Individual,2,false,2,40.00,0.00,,40.00,,false,,false,,false,40.00,false,,false,,false
+67,D40A,9,328,Luceli Nascimento de Brito,BR,Clube,ROTA 405,Clube de Orientação Rota 405,1,false,2,40.00,0.00,,40.00,40.00,false,,false,,false,,false,,false,,false
+125,H40A,10,833,José Eduardo Gonçalves de Souza,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,77.00,0.00,,77.00,40.00,false,37.00,false,,false,,false,,false,,false
+125,H40A,10,345,Rafael Grenzel,BR,Clube,COS,Clube de Orientação de Santiago,1,true,2,77.00,0.00,,77.00,37.00,false,40.00,false,,false,,false,,false,,false
+122,H35A,11,834,Vanderlei José Bortoli,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,false,40.00,false,,false,,false
+122,H35A,11,50,Leon Munhoz da Rosa,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,true,4,144.00,70.00,,74.00,35.00,false,35.00,false,37.00,false,37.00,false,,false,,false
+122,H35A,11,404,Vinicius Matté,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,true,3,74.00,0.00,,74.00,37.00,false,37.00,false,,false,,false,,false,,false
+118,H21A,12,838,Javã Rodrigues de Sousa,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,155.00,75.00,,80.00,35.00,false,40.00,false,40.00,false,40.00,false,,false,,false
+118,H21A,12,835,Tailan Oliveira Rosa,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,4,151.00,74.00,,77.00,40.00,false,37.00,false,37.00,false,37.00,false,,false,,false
+118,H21A,12,841,Maurício Pivotto Viera,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,139.00,67.00,,72.00,37.00,false,32.00,false,35.00,false,35.00,false,,false,,false
+118,H21A,12,839,Luis Carlos Chagas,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,true,2,132.00,66.00,,66.00,33.00,false,33.00,false,33.00,true,33.00,true,,false,,false
+118,H21A,12,550,Rafael Jacques Bossi,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,true,4,97.00,31.00,,66.00,31.00,false,,false,33.00,false,33.00,false,,false,,false
+118,H21A,12,553,Rafael Gomes de Oliveira,BR,Clube,COSM,Clube de Orientação de Santa Maria,6,false,2,65.00,0.00,,65.00,30.00,false,35.00,false,,false,,false,,false,,false
+118,H21A,12,836,Érick Kettermann Garcia,BR,Clube,COSM,Clube de Orientação de Santa Maria,7,false,4,126.00,62.00,,64.00,32.00,false,31.00,false,31.00,false,32.00,false,,false,,false
+118,H21A,12,840,Gian Senna Magalhães,BR,Clube,COSM,Clube de Orientação de Santa Maria,8,false,2,59.00,0.00,,59.00,29.00,false,30.00,false,,false,,false,,false,,false
+118,H21A,12,389,Arthur Coimbra de Souza Braga,BR,Clube,COSM,Clube de Orientação de Santa Maria,9,false,1,32.00,0.00,,32.00,,false,,false,32.00,false,,false,,false,,false
+118,H21A,12,837,Leandro dos Santos Silva,BR,Clube,Indiv,Individual,10,false,2,28.00,0.00,,28.00,28.00,false,,false,,false,,false,,false,,false
+57,D20A,13,281,Ana Clara Garske Lopes,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,2,80.00,0.00,,80.00,,false,,false,40.00,false,40.00,false,,false,,false
+115,H20A,15,430,Erick Dias Knorst,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,1,40.00,0.00,,40.00,,false,,false,40.00,false,,false,,false,,false
+54,D18A,16,842,Isadora Silveira Knecht,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,80.00,0.00,,80.00,40.00,false,40.00,false,,false,,false,,false,,false
+54,D18A,16,843,Larissa Scheffer Cantarelli,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,154.00,74.00,,80.00,37.00,false,37.00,false,40.00,false,40.00,false,,false,,false
+112,H18A,17,447,Ariel dos Santos Correia,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,40.00,0.00,,40.00,,false,,false,40.00,false,,false,,false,,false
+112,H18A,17,276,Dawison Pacheco de Farias,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,1,40.00,0.00,,40.00,,false,,false,,false,40.00,false,,false,,false
+51,D16A,18,845,Manuela Cardoso da Rosa,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,150.00,70.00,,80.00,40.00,false,40.00,false,35.00,false,35.00,false,,false,,false
+51,D16A,18,371,Bianca Trindade Chagas,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,true,2,77.00,0.00,,77.00,,false,,false,40.00,false,37.00,false,,false,,false
+51,D16A,18,440,Ludimila Carvalho Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,true,2,77.00,0.00,,77.00,,false,,false,37.00,false,40.00,false,,false,,false
+51,D16A,18,844,Valentina Couto Henriques,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,false,1,37.00,0.00,,37.00,37.00,false,,false,,false,,false,,false,,false
+51,D16A,18,510,Clara Stangherlin Anselva,BR,Clube,COSM,Clube de Orientação de Santa Maria,5,false,1,33.00,0.00,,33.00,,false,,false,33.00,false,,false,,false,,false
+109,H16A,19,848,Lorenzo Manfio Engelmann,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,3,117.00,37.00,,80.00,40.00,false,40.00,false,37.00,false,,false,,false,,false
+109,H16A,19,863,Valentin Gindri De Oliveira,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,80.00,0.00,,80.00,,false,,false,40.00,false,40.00,false,,false,,false
+109,H16A,19,847,Lucas Balbom Cogo,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,140.00,68.00,,72.00,33.00,false,35.00,false,35.00,false,37.00,false,,false,,false
+109,H16A,19,236,Bernardo Bitencourt Bernardes,BR,Clube,ROTA 405,Clube de Orientação Rota 405,4,false,2,70.00,0.00,,70.00,37.00,false,33.00,false,,false,,false,,false,,false
+109,H16A,19,846,Luidgi Rafael Polga Bordin,BR,Clube,COSM,Clube de Orientação de Santa Maria,5,false,3,69.00,0.00,,69.00,32.00,false,37.00,false,,false,,false,,false,,false
+109,H16A,19,410,Marcelo da Rosa Libardi,BR,Clube,COSM,Clube de Orientação de Santa Maria,6,false,2,67.00,0.00,,67.00,35.00,false,32.00,false,,false,,false,,false,,false
+106,H14A,21,849,Antônio Daniel Krüger,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,152.00,72.00,,80.00,40.00,false,37.00,false,35.00,false,40.00,false,,false,,false
+106,H14A,21,327,Lucas Chitolina Bortoli,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,152.00,72.00,,80.00,37.00,false,40.00,false,40.00,false,35.00,false,,false,,false
+106,H14A,21,407,Kevyn Ryan Borba Squarcieri,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,2,74.00,0.00,,74.00,,false,,false,37.00,false,37.00,false,,false,,false
+74,D50B,23,850,Teresinha Idenes Balbom Cogo,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,160.00,80.00,,80.00,40.00,false,40.00,false,40.00,false,40.00,false,,false,,false
+132,H50B,24,852,Alexsandro Tauchen de Toledo,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,157.00,77.00,,80.00,40.00,false,40.00,false,37.00,false,40.00,false,,false,,false
+132,H50B,24,851,João Carlos Lima das Chagas,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,4,151.00,74.00,,77.00,37.00,false,37.00,false,40.00,false,37.00,false,,false,,false
+132,H50B,24,868,Fladinei Santiago Da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,1,35.00,0.00,,35.00,,false,,false,,false,35.00,false,,false,,false
+126,H40B,27,854,Carlos Marcel Cunha,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,120.00,40.00,,80.00,40.00,false,40.00,false,40.00,false,,false,,false,,false
+65,D35B,29,861,Ana Paula Souza Corrêa,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,1,40.00,0.00,,40.00,,false,40.00,false,,false,,false,,false,,false
+119,H21B,30,856,Vitor Juliane Moreira Assunção,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,157.00,77.00,,80.00,40.00,false,37.00,false,40.00,false,40.00,false,,false,,false
+119,H21B,30,857,Jardel da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,4,147.00,70.00,,77.00,37.00,false,40.00,false,35.00,false,35.00,false,,false,,false
+119,H21B,30,855,Luciano Silva de Bastos,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,144.00,70.00,,74.00,35.00,false,35.00,false,37.00,false,37.00,false,,false,,false
+58,D20B,31,436,Helena Ilha dos Santos,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,1,40.00,0.00,,40.00,,false,,false,,false,40.00,false,,false,,false
+116,H20B,32,438,Samuel dos Santos Correia,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,1,40.00,0.00,,40.00,,false,,false,40.00,false,,false,,false,,false
+52,D16B,33,408,Manuela Bicca Luccas,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,2,80.00,0.00,,80.00,,false,,false,40.00,false,40.00,false,,false,,false
+110,H16B,34,858,Guilherme Etcheverria Monteiro,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,157.00,77.00,,80.00,40.00,false,37.00,false,40.00,false,40.00,false,,false,,false
+110,H16B,34,859,Lucas Kurkowski Paim,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,4,149.00,72.00,,77.00,35.00,false,40.00,false,37.00,false,37.00,false,,false,,false
+110,H16B,34,412,Alexsander Santos Bitencurt,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,3,103.00,33.00,,70.00,33.00,false,35.00,false,35.00,false,,false,,false,,false
+110,H16B,34,554,Otávio Gabriel Ferreira de Oliveira,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,false,1,37.00,0.00,,37.00,37.00,false,,false,,false,,false,,false,,false
+49,D14B,35,450,Gabriele Carvalho Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,77.00,0.00,,77.00,,false,,false,40.00,false,37.00,false,,false,,false
+49,D14B,35,864,Maria Eduarda Menegassi Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,2,77.00,0.00,,77.00,,false,,false,37.00,false,40.00,false,,false,,false
+104,H12B,37,498,Enzo Oliveira da Rosa,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,1,40.00,0.00,,40.00,,false,,false,,false,40.00,false,,false,,false
+18,D Sênior N,38,402,Leandra Medeiros Spezzapria,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,3,80.00,0.00,,80.00,,false,40.00,false,40.00,false,,false,,false,,false
+26,H Adulto N,39,507,Artur de Oliveira Peres,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,3,120.00,40.00,,80.00,,false,40.00,false,40.00,false,40.00,false,,false,,false
+26,H Adulto N,39,860,Tarlei Da Costa Garcez,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,3,111.00,37.00,,74.00,,false,37.00,false,37.00,false,37.00,false,,false,,false
+26,H Adulto N,39,772,Marcio Ivan Urach Bordin,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,2,40.00,0.00,,40.00,40.00,false,,false,,false,,false,,false,,false
+12,D Juvenil N,40,434,Luiza Borba da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,false,4,120.00,40.00,,80.00,40.00,false,40.00,false,,false,40.00,false,,false,,false
+12,D Juvenil N,40,773,Paloma Nunes de Almeida,BR,Clube,COSM,Clube de Orientação de Santa Maria,2,false,4,143.00,68.00,,75.00,35.00,false,35.00,false,40.00,false,33.00,false,,false,,false
+12,D Juvenil N,40,774,Livia Procópio Rosa,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,true,4,109.00,35.00,,74.00,37.00,false,37.00,false,,false,35.00,false,,false,,false
+12,D Juvenil N,40,788,Manuela Machado Cezar,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,true,2,74.00,0.00,,74.00,,false,,false,37.00,false,37.00,false,,false,,false
+12,D Juvenil N,40,793,Ane Manuela Rodrigues Trindade,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,5,false,1,32.00,0.00,,32.00,,false,,false,,false,32.00,false,,false,,false
+34,H Juvenil N,41,778,Bernardo Pairé da Rocha Soares,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,148.00,68.00,,80.00,35.00,false,40.00,false,33.00,false,40.00,false,,false,,false
+34,H Juvenil N,41,775,Igor Moreira Fonseca,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,4,113.00,33.00,,80.00,40.00,false,33.00,false,40.00,false,,false,,false,,false
+34,H Juvenil N,41,406,Matheus Sanches Soares da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,false,4,135.00,61.00,,74.00,37.00,false,37.00,false,31.00,false,30.00,false,,false,,false
+34,H Juvenil N,41,515,Alisson Martins dos Santos,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,true,4,136.00,66.00,,70.00,31.00,false,35.00,false,35.00,false,35.00,false,,false,,false
+34,H Juvenil N,41,783,Leonardo Barros da Rocha,BR,Clube,COSM,Clube de Orientação de Santa Maria,4,true,4,132.00,62.00,,70.00,33.00,false,32.00,false,30.00,false,37.00,false,,false,,false
+34,H Juvenil N,41,411,Arthur Luis Sotero Dornelles,BR,Clube,COSM,Clube de Orientação de Santa Maria,6,false,3,95.00,30.00,,65.00,30.00,false,,false,32.00,false,33.00,false,,false,,false
+34,H Juvenil N,41,782,Jonatas da Roza Belisario da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,7,false,4,92.00,29.00,,63.00,29.00,false,31.00,false,,false,32.00,false,,false,,false
+34,H Juvenil N,41,804,Bernardo Machado Cezar,BR,Clube,COSM,Clube de Orientação de Santa Maria,8,false,2,59.00,0.00,,59.00,,false,,false,28.00,false,31.00,false,,false,,false
+34,H Juvenil N,41,777,Luiz Gabriel Graffemberg Pinto,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,9,true,2,58.00,0.00,,58.00,,false,,false,29.00,false,29.00,false,,false,,false
+34,H Juvenil N,41,780,Miguel Amador Gonçalves,BR,Clube,COSM,Clube de Orientação de Santa Maria,9,true,2,58.00,0.00,,58.00,28.00,false,30.00,false,,false,,false,,false,,false
+34,H Juvenil N,41,445,Ysmael dos Santos Saraiva,BR,Clube,COSM,Clube de Orientação de Santa Maria,11,false,2,37.00,0.00,,37.00,,false,,false,37.00,false,,false,,false,,false
+34,H Juvenil N,41,779,Josiel Pereira de Cristo,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,12,false,1,32.00,0.00,,32.00,32.00,false,,false,,false,,false,,false,,false
+6,D Infantil N,42,784,Alicia Giovana Graffemberg Pinto,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1,false,4,157.00,77.00,,80.00,40.00,false,40.00,false,40.00,false,37.00,false,,false,,false
+6,D Infantil N,42,795,Isabelly de Lima,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,2,false,1,40.00,0.00,,40.00,,false,,false,,false,40.00,false,,false,,false
+28,H Infantil N,43,785,Lorenzo Schmitt Rodrigues,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1,true,4,147.00,70.00,,77.00,40.00,false,33.00,false,37.00,false,37.00,false,,false,,false
+28,H Infantil N,43,365,Theo Mendonça Fioravanti,BR,Clube,COSM,Clube de Orientação de Santa Maria,1,true,3,77.00,0.00,,77.00,37.00,false,40.00,false,,false,,false,,false,,false
+28,H Infantil N,43,807,Arthur Moreira Mendonça,BR,Clube,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,3,true,2,75.00,0.00,,75.00,,false,,false,40.00,false,35.00,false,,false,,false
+28,H Infantil N,43,398,Lucas Sanches Soares da Silva,BR,Clube,COSM,Clube de Orientação de Santa Maria,3,true,4,145.00,70.00,,75.00,35.00,false,35.00,false,35.00,false,40.00,false,,false,,false
+28,H Infantil N,43,786,Enio da Silva Fonseca Neto,BR,Clube,COSM,Clube de Orientação de Santa Maria,5,false,2,37.00,0.00,,37.00,,false,37.00,false,,false,,false,,false,,false
