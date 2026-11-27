@@ -37,9 +37,14 @@ function renderizarInscricoes() {
   }
   const registros = Array.from(atletas.values()).map((item) => ({ ...item, categoria: [...item.categorias].sort(ordenar).join(' / ') }))
     .sort((a, b) => ordenar(a.atleta, b.atleta));
-  document.querySelector('#registration-summary').textContent = `${registros.length} atletas inscritos · ${provas.length} provas`;
+  const busca = normalizar(document.querySelector('#registration-search').value);
+  const filtrados = registros.filter((registro) => !busca || normalizar([
+    registro.atleta, registro.categoria, registro.entidade_sigla, registro.entidade, registro.peitoral, registro.sicard,
+  ].join(' ')).includes(busca));
+  document.querySelector('#registration-summary').textContent = `${filtrados.length} atletas inscritos · ${provas.length} provas`;
+  document.querySelector('#registration-count').textContent = `${filtrados.length} ${filtrados.length === 1 ? 'atleta' : 'atletas'}`;
   const grupos = new Map();
-  for (const registro of registros) {
+  for (const registro of filtrados) {
     const nome = agrupamento === 'entity' ? registro.entidade_sigla || registro.entidade || 'Sem entidade'
       : agrupamento === 'category' ? registro.categoria || 'Sem categoria' : '';
     if (!grupos.has(nome)) grupos.set(nome, []);
@@ -75,7 +80,12 @@ function renderizarInscricoes() {
     }
     table.append(head, body); scroll.append(table); fragment.append(scroll);
   }
-  document.querySelector('#registrations-list').replaceChildren(fragment);
+  const lista = document.querySelector('#registrations-list');
+  if (!filtrados.length) {
+    lista.textContent = busca ? 'Nenhuma inscrição corresponde à busca.' : 'Não há inscrições publicadas.';
+  } else {
+    lista.replaceChildren(fragment);
+  }
 }
 
 function lerCsv(texto) {
@@ -94,6 +104,8 @@ function lerCsv(texto) {
 }
 
 function ordenar(a, b) { return String(a || '').localeCompare(String(b || ''), 'pt-BR'); }
+function normalizar(v) { return String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
 function escapar(v) { return String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
 document.querySelector('#registration-grouping').addEventListener('change', renderizarInscricoes);
+document.querySelector('#registration-search').addEventListener('input', renderizarInscricoes);
 iniciarInscricoes();

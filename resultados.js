@@ -1,5 +1,8 @@
+let resultadosPublicados = [];
+let provaPorPontos = false;
+const areaResultados = document.querySelector('#proof-results');
+
 async function iniciarResultados() {
-  const area = document.querySelector('#proof-results');
   try {
     const id = new URLSearchParams(location.search).get('prova');
     const manifestoResposta = await fetch('data/evento.json');
@@ -13,12 +16,21 @@ async function iniciarResultados() {
     const resposta = await fetch(`data/${prova.resultados}`);
     if (!resposta.ok) throw new Error('O CSV de resultados desta prova ainda não foi publicado.');
     const rows = parseCsv(await resposta.text());
-    renderizar(rows, Boolean(prova.por_pontos), area);
-  } catch (erro) { area.innerHTML = `<div class="card loading">${escapar(erro.message)}</div>`; }
+    resultadosPublicados = rows;
+    provaPorPontos = Boolean(prova.por_pontos);
+    renderizar();
+  } catch (erro) { areaResultados.innerHTML = `<div class="card loading">${escapar(erro.message)}</div>`; }
 }
 
-function renderizar(rows, porPontos, area) {
-  if (!rows.length) { area.innerHTML = '<div class="card loading">Não há resultados publicados.</div>'; return; }
+function renderizar() {
+  const busca = normalizar(document.querySelector('#proof-search').value);
+  const rows = resultadosPublicados.filter((row) => !busca || normalizar([
+    row.categoria, row.atleta, row.entidade_sigla, row.entidade, row.peitoral, row.situacao_sigla,
+  ].join(' ')).includes(busca));
+  document.querySelector('#proof-count').textContent = `${rows.length} ${rows.length === 1 ? 'atleta' : 'atletas'}`;
+  const empty = document.querySelector('#proof-empty');
+  empty.hidden = rows.length > 0;
+  if (!rows.length) { areaResultados.replaceChildren(); return; }
   const grupos = new Map();
   for (const row of rows) {
     const id = row.categoria_id || row.categoria || 'sem-categoria';
@@ -53,7 +65,7 @@ function renderizar(rows, porPontos, area) {
     }
     table.append(thead, body); scroll.append(table); card.append(header, scroll); section.append(card);
   }
-  area.replaceChildren(section);
+  areaResultados.replaceChildren(section);
 }
 
 function parseCsv(text) {
@@ -88,5 +100,7 @@ function formatPace(seconds, distance) {
   const pace = Math.round(s * 1000 / m); return `${Math.floor(pace / 60)}:${String(pace % 60).padStart(2, '0')}`;
 }
 function formatDistance(meters) { return (Number(meters) / 1000).toLocaleString('pt-BR', { maximumFractionDigits: 2 }); }
+function normalizar(v) { return String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
 function escapar(v) { return String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
+document.querySelector('#proof-search').addEventListener('input', renderizar);
 iniciarResultados();
