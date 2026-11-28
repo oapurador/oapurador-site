@@ -1,244 +1,246 @@
-﻿categoria_id,categoria,atleta_id,atleta,peitoral,entidade_sigla,entidade,sicard,fonte_id,prova_id,prova,prova_data
-6,"D Infantil N",784,"Alicia Giovana Graffemberg Pinto",25010,COSM,"Clube de Orientação de Santa Maria",1151049,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-6,"D Infantil N",784,"Alicia Giovana Graffemberg Pinto",25010,COSM,"Clube de Orientação de Santa Maria",1151049,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-6,"D Infantil N",795,"Isabelly de Lima",26014,"Hylda Vasconcel","Hylda Vasconcel",1151052,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-6,"D Infantil N",795,"Isabelly de Lima",26014,"Hylda Vasconcel","Hylda Vasconcel",1151052,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-6,"D Infantil N",369,"Manuella Domingues Dias",22338,COSM,"Clube de Orientação de Santa Maria",1100837,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-6,"D Infantil N",369,"Manuella Domingues Dias",22338,COSM,"Clube de Orientação de Santa Maria",1100837,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",793,"Ane Manuela Rodrigues Trindade",26003,"Hylda Vasconcel","Hylda Vasconcel",1151053,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",793,"Ane Manuela Rodrigues Trindade",26003,"Hylda Vasconcel","Hylda Vasconcel",1151053,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",891,"Julia de Souza Ramires",68033,"Hylda Vasconcel","Hylda Vasconcel",1550044,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",891,"Julia de Souza Ramires",68033,"Hylda Vasconcel","Hylda Vasconcel",1550044,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",774,"Livia Procópio Rosa",25018,COSM,"Clube de Orientação de Santa Maria",1550048,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",774,"Livia Procópio Rosa",25018,COSM,"Clube de Orientação de Santa Maria",1550048,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",434,"Luiza Borba da Silva",22390,COSM,"Clube de Orientação de Santa Maria",1090984,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",434,"Luiza Borba da Silva",22390,COSM,"Clube de Orientação de Santa Maria",1090984,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",788,"Manuela Machado Cezar",26022,COSM,"Clube de Orientação de Santa Maria",1503425,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",788,"Manuela Machado Cezar",26022,COSM,"Clube de Orientação de Santa Maria",1503425,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-12,"D Juvenil N",773,"Paloma Nunes de Almeida",25019,COSM,"Clube de Orientação de Santa Maria",1550049,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-12,"D Juvenil N",773,"Paloma Nunes de Almeida",25019,COSM,"Clube de Orientação de Santa Maria",1550049,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-18,"D Sênior N",402,"Leandra Medeiros Spezzapria",22293,COSM,"Clube de Orientação de Santa Maria",2159503,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-18,"D Sênior N",402,"Leandra Medeiros Spezzapria",22293,COSM,"Clube de Orientação de Santa Maria",2159503,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,794,"Alice Trindade Chagas",25101,COSM,"Clube de Orientação de Santa Maria",1008686,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,794,"Alice Trindade Chagas",25101,COSM,"Clube de Orientação de Santa Maria",1008686,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,877,"Ana Clara Cervo Schacker",68025,Indiv,Indiv,,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,896,"Caroline de Souza Becker",68028,Indiv,Indiv,,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,892,"Flaviane Reis da Silva",68032,"Hylda Vasconcel","Hylda Vasconcel",1009111,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,892,"Flaviane Reis da Silva",68032,"Hylda Vasconcel","Hylda Vasconcel",1009111,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,889,"Lavinia Oliveira Melo",68034,COSM,"Clube de Orientação de Santa Maria",1090983,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,889,"Lavinia Oliveira Melo",68034,COSM,"Clube de Orientação de Santa Maria",1090983,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,883,"Lidiane Silva Costa",68035,Indiv,Indiv,,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,792,"Lívia Mendonça Fioravanti",22634,COSM,"Clube de Orientação de Santa Maria",1008601,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,792,"Lívia Mendonça Fioravanti",22634,COSM,"Clube de Orientação de Santa Maria",1008601,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,890,"Maria Eduarda Estello da Rocha",68040,"José Paim","José Paim",1151046,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,890,"Maria Eduarda Estello da Rocha",68040,"José Paim","José Paim",1151046,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,886,"Mariana dos Santos Nascimento",68041,COSM,"Clube de Orientação de Santa Maria",1550045,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,886,"Mariana dos Santos Nascimento",68041,COSM,"Clube de Orientação de Santa Maria",1550045,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,897,"Paola Xisto",68045,COSM,"Clube de Orientação de Santa Maria",1811161,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,897,"Paola Xisto",68045,COSM,"Clube de Orientação de Santa Maria",1811161,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-22,DNA,791,"Yandra de Matos Noronha",26034,COSM,"Clube de Orientação de Santa Maria",1503536,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-22,DNA,791,"Yandra de Matos Noronha",26034,COSM,"Clube de Orientação de Santa Maria",1503536,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-26,"H Adulto N",507,"Artur de Oliveira Peres",22410,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-26,"H Adulto N",507,"Artur de Oliveira Peres",22410,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",807,"Arthur Moreira Mendonça",26004,"Hylda Vasconcel","Hylda Vasconcel",1151043,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",807,"Arthur Moreira Mendonça",26004,"Hylda Vasconcel","Hylda Vasconcel",1151043,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",786,"Enio da Silva Fonseca Neto",68008,COSM,"Clube de Orientação de Santa Maria",1503539,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",786,"Enio da Silva Fonseca Neto",68008,COSM,"Clube de Orientação de Santa Maria",1503539,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",800,"João Vitor Rodrigues Alves",26016,"José Paim","José Paim",1550043,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",800,"João Vitor Rodrigues Alves",26016,"José Paim","José Paim",1550043,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",880,"Lorenzo Gabriel Polga Bordin",68036,Indiv,Indiv,,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",785,"Lorenzo Schmitt Rodrigues",68021,"Hylda Vasconcel","Hylda Vasconcel",1200529,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",785,"Lorenzo Schmitt Rodrigues",68021,"Hylda Vasconcel","Hylda Vasconcel",1200529,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",398,"Lucas Sanches Soares da Silva",22359,COSM,"Clube de Orientação de Santa Maria",1041937,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",398,"Lucas Sanches Soares da Silva",22359,COSM,"Clube de Orientação de Santa Maria",1041937,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",874,"Mathias Saccol Rizzatti",22612,COSM,"Clube de Orientação de Santa Maria",7001279,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",874,"Mathias Saccol Rizzatti",22612,COSM,"Clube de Orientação de Santa Maria",7001279,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",802,"Miguel Rosa de Souza",25005,"Hylda Vasconcel","Hylda Vasconcel",1116238,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",802,"Miguel Rosa de Souza",25005,"Hylda Vasconcel","Hylda Vasconcel",1116238,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",825,"Murilo Mendonça Vieira dos Santos",25009,"Hylda Vasconcel","Hylda Vasconcel",1116237,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",825,"Murilo Mendonça Vieira dos Santos",25009,"Hylda Vasconcel","Hylda Vasconcel",1116237,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-28,"H Infantil N",365,"Theo Mendonça Fioravanti",19773,COSM,"Clube de Orientação de Santa Maria",8408142,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-28,"H Infantil N",365,"Theo Mendonça Fioravanti",19773,COSM,"Clube de Orientação de Santa Maria",8408142,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",515,"Alisson Martins dos Santos",68003,COSM,"Clube de Orientação de Santa Maria",1503534,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",515,"Alisson Martins dos Santos",68003,COSM,"Clube de Orientação de Santa Maria",1503534,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",781,"Arthur da Silva Gomes",68004,COSM,"Clube de Orientação de Santa Maria",1503552,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",781,"Arthur da Silva Gomes",68004,COSM,"Clube de Orientação de Santa Maria",1503552,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",411,"Arthur Luis Sotero Dornelles",22372,COSM,"Clube de Orientação de Santa Maria",1166666,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",411,"Arthur Luis Sotero Dornelles",22372,COSM,"Clube de Orientação de Santa Maria",1166666,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",804,"Bernardo Machado Cezar",26005,COSM,"Clube de Orientação de Santa Maria",1503540,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",804,"Bernardo Machado Cezar",26005,COSM,"Clube de Orientação de Santa Maria",1503540,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",778,"Bernardo Pairé da Rocha Soares",68005,COSM,"Clube de Orientação de Santa Maria",1122884,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",778,"Bernardo Pairé da Rocha Soares",68005,COSM,"Clube de Orientação de Santa Maria",1122884,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",775,"Igor Moreira Fonseca",68015,COSM,"Clube de Orientação de Santa Maria",1122887,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",775,"Igor Moreira Fonseca",68015,COSM,"Clube de Orientação de Santa Maria",1122887,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",782,"Jonatas da Roza Belisario da Silva",68017,COSM,"Clube de Orientação de Santa Maria",1122885,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",782,"Jonatas da Roza Belisario da Silva",68017,COSM,"Clube de Orientação de Santa Maria",1122885,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",783,"Leonardo Barros da Rocha",25016,COSM,"Clube de Orientação de Santa Maria",1503538,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",783,"Leonardo Barros da Rocha",25016,COSM,"Clube de Orientação de Santa Maria",1503538,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",777,"Luiz Gabriel Graffemberg Pinto",25003,"Hylda Vasconcel","Hylda Vasconcel",1070633,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",777,"Luiz Gabriel Graffemberg Pinto",25003,"Hylda Vasconcel","Hylda Vasconcel",1070633,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-34,"H Juvenil N",406,"Matheus Sanches Soares da Silva",22366,COSM,"Clube de Orientação de Santa Maria",1041934,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-34,"H Juvenil N",406,"Matheus Sanches Soares da Silva",22366,COSM,"Clube de Orientação de Santa Maria",1041934,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,817,"Andryus Vinicius Gonçalves Menezes Ferraz de Castro",26002,COSM,"Clube de Orientação de Santa Maria",1503443,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,817,"Andryus Vinicius Gonçalves Menezes Ferraz de Castro",26002,COSM,"Clube de Orientação de Santa Maria",1503443,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,888,"Arthur Fernandes da Silva",68026,COSM,"Clube de Orientação de Santa Maria",1151051,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,888,"Arthur Fernandes da Silva",68026,COSM,"Clube de Orientação de Santa Maria",1151051,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,893,"Cauã Argenta da Silva",68029,"Hylda Vasconcel","Hylda Vasconcel",1151035,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,893,"Cauã Argenta da Silva",68029,"Hylda Vasconcel","Hylda Vasconcel",1151035,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,811,"Davi Abdalla da Rosa",26007,COSM,"Clube de Orientação de Santa Maria",1503449,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,811,"Davi Abdalla da Rosa",26007,COSM,"Clube de Orientação de Santa Maria",1503449,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,820,"Eduardo Degliuomini da Silva",26009,COSM,"Clube de Orientação de Santa Maria",1503423,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,820,"Eduardo Degliuomini da Silva",26009,COSM,"Clube de Orientação de Santa Maria",1503423,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,887,"Edward Machado Marques",68031,COSM,"Clube de Orientação de Santa Maria",1550050,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,887,"Edward Machado Marques",68031,COSM,"Clube de Orientação de Santa Maria",1550050,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,899,"Ezequiel Cardoso de Lima Xavier",68043,COSM,"Clube de Orientação de Santa Maria",1416234,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,899,"Ezequiel Cardoso de Lima Xavier",68043,COSM,"Clube de Orientação de Santa Maria",1416234,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,823,"Gabriel Borba Gomes",26013,COSM,"Clube de Orientação de Santa Maria",1090985,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,823,"Gabriel Borba Gomes",26013,COSM,"Clube de Orientação de Santa Maria",1090985,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,866,"João Gabriel Da Silva Gomes",30100,COSM,"Clube de Orientação de Santa Maria",1503544,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,866,"João Gabriel Da Silva Gomes",30100,COSM,"Clube de Orientação de Santa Maria",1503544,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,815,"Lorenzo de Mendonça Rodrigues",26018,"José Paim","José Paim",1200532,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,815,"Lorenzo de Mendonça Rodrigues",26018,"José Paim","José Paim",1200532,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,885,"Lowrran de Matos Noronha",68037,COSM,"Clube de Orientação de Santa Maria",1010931,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,885,"Lowrran de Matos Noronha",68037,COSM,"Clube de Orientação de Santa Maria",1010931,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,827,"Luiz Alexandre Pereira",26020,COSM,"Clube de Orientação de Santa Maria",1550046,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,827,"Luiz Alexandre Pereira",26020,COSM,"Clube de Orientação de Santa Maria",1550046,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,818,"Luiz Otavio Londero de Oliveira",26021,"José Paim","José Paim",1008873,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,818,"Luiz Otavio Londero de Oliveira",26021,"José Paim","José Paim",1008873,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,805,"Mauricio Aciol Machado",68024,COSM,"Clube de Orientação de Santa Maria",1090982,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,805,"Mauricio Aciol Machado",68024,COSM,"Clube de Orientação de Santa Maria",1090982,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,900,"Miguel Machado Bohrer",68044,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,900,"Miguel Machado Bohrer",68044,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-44,HNA,884,"Pedro Henrique dos Santos Silva",68042,COSM,"Clube de Orientação de Santa Maria",1122883,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-44,HNA,884,"Pedro Henrique dos Santos Silva",68042,COSM,"Clube de Orientação de Santa Maria",1122883,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-49,D14B,450,"Gabriele Carvalho Silva",68014,COSM,"Clube de Orientação de Santa Maria",1090981,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-49,D14B,450,"Gabriele Carvalho Silva",68014,COSM,"Clube de Orientação de Santa Maria",1090981,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-51,D16A,371,"Bianca Trindade Chagas",20642,COSM,"Clube de Orientação de Santa Maria",8539644,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-51,D16A,371,"Bianca Trindade Chagas",20642,COSM,"Clube de Orientação de Santa Maria",8539644,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-51,D16A,440,"Ludimila Carvalho Silva",22395,COSM,"Clube de Orientação de Santa Maria",2163169,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-51,D16A,440,"Ludimila Carvalho Silva",22395,COSM,"Clube de Orientação de Santa Maria",2163169,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-51,D16A,845,"Manuela Cardoso da Rosa",23144,COSM,"Clube de Orientação de Santa Maria",1459031,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-51,D16A,845,"Manuela Cardoso da Rosa",23144,COSM,"Clube de Orientação de Santa Maria",1459031,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-52,D16B,408,"Manuela Bicca Luccas",22369,COSM,"Clube de Orientação de Santa Maria",2166981,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-52,D16B,408,"Manuela Bicca Luccas",22369,COSM,"Clube de Orientação de Santa Maria",2166981,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-57,D20A,281,"Ana Clara Garske Lopes",9341,COSM,"Clube de Orientação de Santa Maria",8543217,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-57,D20A,281,"Ana Clara Garske Lopes",9341,COSM,"Clube de Orientação de Santa Maria",8543217,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-58,D20B,436,"Helena Ilha dos Santos",22392,COSM,"Clube de Orientação de Santa Maria",2166985,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-58,D20B,436,"Helena Ilha dos Santos",22392,COSM,"Clube de Orientação de Santa Maria",2166985,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-60,D21A,479,"Luiza Eduarda Wachtmann Rizzatti",22593,COSM,"Clube de Orientação de Santa Maria",8525874,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-60,D21A,479,"Luiza Eduarda Wachtmann Rizzatti",22593,COSM,"Clube de Orientação de Santa Maria",8525874,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-61,D21B,876,"Bianca Schmitt Basso",24316,COSM,"Clube de Orientação de Santa Maria",2166986,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-61,D21B,876,"Bianca Schmitt Basso",24316,COSM,"Clube de Orientação de Santa Maria",2166986,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-62,D21E,127,"Elaine Dalmares Lenz",7987,COSM,"Clube de Orientação de Santa Maria",8645002,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-62,D21E,127,"Elaine Dalmares Lenz",7987,COSM,"Clube de Orientação de Santa Maria",8645002,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-62,D21E,324,"Juliane Valéria de Carvalho Mendonça",2734,COSM,"Clube de Orientação de Santa Maria",8028903,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-62,D21E,324,"Juliane Valéria de Carvalho Mendonça",2734,COSM,"Clube de Orientação de Santa Maria",8028903,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-62,D21E,250,"Letícia Forgiarini Tonetto",19074,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-62,D21E,250,"Letícia Forgiarini Tonetto",19074,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-62,D21E,492,"Nelci de Souza",18352,COSM,"Clube de Orientação de Santa Maria",1070636,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-62,D21E,492,"Nelci de Souza",18352,COSM,"Clube de Orientação de Santa Maria",1070636,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-67,D40A,328,"Luceli Nascimento de Brito",20042,"ROTA 405","Clube de Orientação Rota 405",1811156,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-67,D40A,328,"Luceli Nascimento de Brito",20042,"ROTA 405","Clube de Orientação Rota 405",1811156,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-73,D50A,96,"Vanessa Tassinari Ragazzon",2240,"ROTA 405","Clube de Orientação Rota 405",2128457,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-79,D60A,294,"Alceni Melo Garcia",1400,COSC,"Clube de Orientação de Santa Cruz",1393006,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-104,H12B,498,"Enzo Oliveira da Rosa",23042,COSM,"Clube de Orientação de Santa Maria",2233599,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-104,H12B,498,"Enzo Oliveira da Rosa",23042,COSM,"Clube de Orientação de Santa Maria",2233599,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-106,H14A,849,"Antônio Daniel Krüger",23006,COSM,"Clube de Orientação de Santa Maria",8408153,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-106,H14A,849,"Antônio Daniel Krüger",23006,COSM,"Clube de Orientação de Santa Maria",8408153,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-106,H14A,879,"Felipe Daniel Buriol",23665,COSM,"Clube de Orientação de Santa Maria",2159965,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-106,H14A,879,"Felipe Daniel Buriol",23665,COSM,"Clube de Orientação de Santa Maria",2159965,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-106,H14A,407,"Kevyn Ryan Borba Squarcieri",22368,COSM,"Clube de Orientação de Santa Maria",2167285,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-106,H14A,407,"Kevyn Ryan Borba Squarcieri",22368,COSM,"Clube de Orientação de Santa Maria",2167285,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-106,H14A,327,"Lucas Chitolina Bortoli",21664,COSM,"Clube de Orientação de Santa Maria",1008855,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-106,H14A,327,"Lucas Chitolina Bortoli",21664,COSM,"Clube de Orientação de Santa Maria",1008855,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-107,H14B,882,"Gabriel Castagna dos Santos Robaina",24447,COSM,"Clube de Orientação de Santa Maria",1151047,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-107,H14B,882,"Gabriel Castagna dos Santos Robaina",24447,COSM,"Clube de Orientação de Santa Maria",1151047,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-109,H16A,848,"Lorenzo Manfio Engelmann",23044,COSM,"Clube de Orientação de Santa Maria",8408157,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-109,H16A,848,"Lorenzo Manfio Engelmann",23044,COSM,"Clube de Orientação de Santa Maria",8408157,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-109,H16A,846,"Luidgi Rafael Polga Bordin",23059,COSM,"Clube de Orientação de Santa Maria",2159961,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-109,H16A,410,"Marcelo da Rosa Libardi",22371,COSM,"Clube de Orientação de Santa Maria",1550051,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-109,H16A,410,"Marcelo da Rosa Libardi",22371,COSM,"Clube de Orientação de Santa Maria",1550051,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-110,H16B,858,"Guilherme Etcheverria Monteiro",23666,COSM,"Clube de Orientação de Santa Maria",2228483,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-110,H16B,858,"Guilherme Etcheverria Monteiro",23666,COSM,"Clube de Orientação de Santa Maria",2228483,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-110,H16B,859,"Lucas Kurkowski Paim",66048,COSM,"Clube de Orientação de Santa Maria",1151033,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-110,H16B,859,"Lucas Kurkowski Paim",66048,COSM,"Clube de Orientação de Santa Maria",1151033,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-115,H20A,430,"Erick Dias Knorst",22386,COSM,"Clube de Orientação de Santa Maria",2167280,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-115,H20A,430,"Erick Dias Knorst",22386,COSM,"Clube de Orientação de Santa Maria",2167280,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,389,"Arthur Coimbra de Souza Braga",13829,COSM,"Clube de Orientação de Santa Maria",2059401,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,389,"Arthur Coimbra de Souza Braga",13829,COSM,"Clube de Orientação de Santa Maria",2059401,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,478,"Bruno Oliveira Rizzatti",1279,COSM,"Clube de Orientação de Santa Maria",8408132,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,478,"Bruno Oliveira Rizzatti",1279,COSM,"Clube de Orientação de Santa Maria",8408132,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,872,"Gabriel Vargas Bastos",31921,COESA,"Clube de Orientação da Escola de Sargentos das Armas",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,872,"Gabriel Vargas Bastos",31921,COESA,"Clube de Orientação da Escola de Sargentos das Armas",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,838,"Javã Rodrigues de Sousa",23324,COSM,"Clube de Orientação de Santa Maria",1010314,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,838,"Javã Rodrigues de Sousa",23324,COSM,"Clube de Orientação de Santa Maria",1010314,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,839,"Luis Carlos Chagas",4973,COSM,"Clube de Orientação de Santa Maria",8408136,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,839,"Luis Carlos Chagas",4973,COSM,"Clube de Orientação de Santa Maria",8408136,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,841,"Maurício Pivotto Viera",13830,COSM,"Clube de Orientação de Santa Maria",1407370,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,841,"Maurício Pivotto Viera",13830,COSM,"Clube de Orientação de Santa Maria",1407370,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,553,"Rafael Gomes de Oliveira",10742,COSM,"Clube de Orientação de Santa Maria",8546860,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,553,"Rafael Gomes de Oliveira",10742,COSM,"Clube de Orientação de Santa Maria",8546860,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,550,"Rafael Jacques Bossi",15808,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,550,"Rafael Jacques Bossi",15808,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-118,H21A,835,"Tailan Oliveira Rosa",23762,COSM,"Clube de Orientação de Santa Maria",8546982,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-118,H21A,835,"Tailan Oliveira Rosa",23762,COSM,"Clube de Orientação de Santa Maria",8546982,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-119,H21B,895,"Arthur Henrique Dahlen",68027,Indiv,Indiv,,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-119,H21B,894,"Douglas Trindade Pereira",68030,Indiv,Indiv,,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-119,H21B,857,"Jardel da Silva",14394,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-119,H21B,855,"Luciano Silva de Bastos",10803,COSM,"Clube de Orientação de Santa Maria",1413021,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-119,H21B,855,"Luciano Silva de Bastos",10803,COSM,"Clube de Orientação de Santa Maria",1413021,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-119,H21B,873,"Marco Antonio Selent",68039,Indiv,Indiv,,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-119,H21B,856,"Vitor Juliane Moreira Assunção",10614,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-119,H21B,856,"Vitor Juliane Moreira Assunção",10614,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-120,H21E,300,"Cleber Baratto Vidal",1315,COSM,"Clube de Orientação de Santa Maria",1603796,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-120,H21E,300,"Cleber Baratto Vidal",1315,COSM,"Clube de Orientação de Santa Maria",1603796,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-120,H21E,829,"Larri Gabriel Hermes Lemes",15263,COSM,"Clube de Orientação de Santa Maria",8681446,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-120,H21E,829,"Larri Gabriel Hermes Lemes",15263,COSM,"Clube de Orientação de Santa Maria",8681446,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-120,H21E,263,"Matheus Moreira da Silva",14075,COSM,"Clube de Orientação de Santa Maria",8546942,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-120,H21E,263,"Matheus Moreira da Silva",14075,COSM,"Clube de Orientação de Santa Maria",8546942,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-122,H35A,50,"Leon Munhoz da Rosa",7883,COSM,"Clube de Orientação de Santa Maria",1419694,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-122,H35A,50,"Leon Munhoz da Rosa",7883,COSM,"Clube de Orientação de Santa Maria",1419694,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-122,H35A,834,"Vanderlei José Bortoli",1860,COSM,"Clube de Orientação de Santa Maria",8408133,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-122,H35A,834,"Vanderlei José Bortoli",1860,COSM,"Clube de Orientação de Santa Maria",8408133,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-122,H35A,404,"Vinicius Matté",22749,COSM,"Clube de Orientação de Santa Maria",8543332,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-122,H35A,404,"Vinicius Matté",22749,COSM,"Clube de Orientação de Santa Maria",8543332,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-123,H35B,875,"Milton Oliveira Vieira",14323,COS,"Clube de Orientação de Santiago",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-123,H35B,875,"Milton Oliveira Vieira",14323,COS,"Clube de Orientação de Santiago",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-125,H40A,345,"Rafael Grenzel",20487,COS,"Clube de Orientação de Santiago",1503438,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-125,H40A,345,"Rafael Grenzel",20487,COS,"Clube de Orientação de Santiago",1503438,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-126,H40B,854,"Carlos Marcel Cunha",23370,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-126,H40B,854,"Carlos Marcel Cunha",23370,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-126,H40B,878,"Luigi Schacker",68038,Indiv,Indiv,,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-128,H45A,853,"Fábio Fernandes Martins",26012,Indiv,Indiv,,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-128,H45A,853,"Fábio Fernandes Martins",26012,Indiv,Indiv,,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-128,H45A,95,"Giuliano Ragazzon",17923,"ROTA 405","Clube de Orientação Rota 405",2128380,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-128,H45A,140,"Marco Antônio Pedroso da Rosa",7741,BAVECO,"Barriga Verde Clube de Orientação",1200536,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-128,H45A,140,"Marco Antônio Pedroso da Rosa",7741,BAVECO,"Barriga Verde Clube de Orientação",1200536,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-129,H45B,497,"Elvio Dias da Rosa",23547,COSM,"Clube de Orientação de Santa Maria",2233456,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-129,H45B,497,"Elvio Dias da Rosa",23547,COSM,"Clube de Orientação de Santa Maria",2233456,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-129,H45B,881,"Ramiro dos Santos Bohrer",30,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-129,H45B,881,"Ramiro dos Santos Bohrer",30,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-131,H50A,458,"Everton Santos da Silva",2806,COSM,"Clube de Orientação de Santa Maria",1008909,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-131,H50A,458,"Everton Santos da Silva",2806,COSM,"Clube de Orientação de Santa Maria",1008909,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-131,H50A,867,"Gilson Schropfer",1868,CASUSA,"Casa dos Subtenentes e Sargentos de Santo Ângelo",1008656,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-131,H50A,867,"Gilson Schropfer",1868,CASUSA,"Casa dos Subtenentes e Sargentos de Santo Ângelo",1008656,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-131,H50A,898,"José Carlos Pascotini",1903,COSM,"Clube de Orientação de Santa Maria",1009001,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-131,H50A,898,"José Carlos Pascotini",1903,COSM,"Clube de Orientação de Santa Maria",1009001,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-131,H50A,831,"Vitor Ribeiro Dias",627,COSM,"Clube de Orientação de Santa Maria",1070637,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-131,H50A,831,"Vitor Ribeiro Dias",627,COSM,"Clube de Orientação de Santa Maria",1070637,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-132,H50B,852,"Alexsandro Tauchen de Toledo",23861,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-132,H50B,852,"Alexsandro Tauchen de Toledo",23861,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-134,H55A,342,"Paulo Moacir Castro Dorneles",17261,COSM,"Clube de Orientação de Santa Maria",,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-134,H55A,342,"Paulo Moacir Castro Dorneles",17261,COSM,"Clube de Orientação de Santa Maria",,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-134,H55A,67,"Valmor Niedermayer",33,COSC,"Clube de Orientação de Santa Cruz",8225352,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-134,H55A,67,"Valmor Niedermayer",33,COSC,"Clube de Orientação de Santa Cruz",8225352,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-135,H55B,871,"Darci Dornelles Lopes",89,COSM,"Clube de Orientação de Santa Maria",1008808,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-135,H55B,871,"Darci Dornelles Lopes",89,COSM,"Clube de Orientação de Santa Maria",1008808,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-137,H60A,70,"Elvandir de Vargas",8,COSM,"Clube de Orientação de Santa Maria",1394625,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-137,H60A,70,"Elvandir de Vargas",8,COSM,"Clube de Orientação de Santa Maria",1394625,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-137,H60A,308,"Fernando Ferreira Elesbão",20822,COSM,"Clube de Orientação de Santa Maria",1041925,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-137,H60A,308,"Fernando Ferreira Elesbão",20822,COSM,"Clube de Orientação de Santa Maria",1041925,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-137,H60A,207,"José Nilton Silva Vargas",38,COSM,"Clube de Orientação de Santa Maria",1200521,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-137,H60A,207,"José Nilton Silva Vargas",38,COSM,"Clube de Orientação de Santa Maria",1200521,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
-137,H60A,341,"Paulo Calisto Becker",899,COrESC,"Clube de Orientação do Extremo Sul Catarinense",1963029,16,23,"Prova 5 · 28/11",2026-11-28T14:00:00+00:00
-137,H60A,341,"Paulo Calisto Becker",899,COrESC,"Clube de Orientação do Extremo Sul Catarinense",1963029,17,24,"Prova 6 · 29/11",2026-11-29T10:00:00+00:00
+categoria_id,categoria,atleta_id,atleta,peitoral,entidade_sigla,entidade,sicard,fonte_id,prova_id,prova,prova_data,partida
+137,H60A,341,Paulo Calisto Becker,899,COrESC,Clube de Orientação do Extremo Sul Catarinense,1963029,,24,Prova 6,2026-11-29T09:00:00.000,09:13
+57,D20A,281,Ana Clara Garske Lopes,9341,COSM,Clube de Orientação de Santa Maria,8543217,,24,Prova 6,2026-11-29T09:00:00.000,09:01
+135,H55B,871,Darci Dornelles Lopes,89,COSM,Clube de Orientação de Santa Maria,1008808,,24,Prova 6,2026-11-29T09:00:00.000,09:36
+67,D40A,328,Luceli Nascimento de Brito,20042,ROTA 405,Clube de Orientação Rota 405,1811156,,24,Prova 6,2026-11-29T09:00:00.000,09:25
+122,H35A,50,Leon Munhoz da Rosa,7883,COSM,Clube de Orientação de Santa Maria,1419694,,24,Prova 6,2026-11-29T09:00:00.000,09:36
+118,H21A,841,Maurício Pivotto Viera,13830,COSM,Clube de Orientação de Santa Maria,1407370,,24,Prova 6,2026-11-29T09:00:00.000,09:37
+118,H21A,835,Tailan Oliveira Rosa,23762,COSM,Clube de Orientação de Santa Maria,8546982,,24,Prova 6,2026-11-29T09:00:00.000,09:43
+109,H16A,848,Lorenzo Manfio Engelmann,23044,COSM,Clube de Orientação de Santa Maria,8408157,,24,Prova 6,2026-11-29T09:00:00.000,09:01
+120,H21E,263,Matheus Moreira da Silva,14075,COSM,Clube de Orientação de Santa Maria,8546942,,24,Prova 6,2026-11-29T09:00:00.000,09:03
+18,D Sênior N,402,Leandra Medeiros Spezzapria,22293,COSM,Clube de Orientação de Santa Maria,2159503,,24,Prova 6,2026-11-29T09:00:00.000,09:37
+135,H55B,871,Darci Dornelles Lopes,89,COSM,Clube de Orientação de Santa Maria,1008808,,23,Prova 5,2026-11-28T14:00:00.000,14:15
+28,H Infantil N,398,Lucas Sanches Soares da Silva,22359,COSM,Clube de Orientação de Santa Maria,1041937,,24,Prova 6,2026-11-29T09:00:00.000,09:06
+12,D Juvenil N,773,Paloma Nunes de Almeida,25019,COSM,Clube de Orientação de Santa Maria,1550049,,24,Prova 6,2026-11-29T09:00:00.000,09:31
+6,D Infantil N,784,Alicia Giovana Graffemberg Pinto,25010,COSM,Clube de Orientação de Santa Maria,1151049,,24,Prova 6,2026-11-29T09:00:00.000,09:27
+28,H Infantil N,786,Enio da Silva Fonseca Neto,68008,COSM,Clube de Orientação de Santa Maria,1503539,,24,Prova 6,2026-11-29T09:00:00.000,09:18
+12,D Juvenil N,774,Livia Procópio Rosa,25018,COSM,Clube de Orientação de Santa Maria,1550048,,24,Prova 6,2026-11-29T09:00:00.000,09:19
+12,D Juvenil N,434,Luiza Borba da Silva,22390,COSM,Clube de Orientação de Santa Maria,1090984,,24,Prova 6,2026-11-29T09:00:00.000,09:01
+51,D16A,845,Manuela Cardoso da Rosa,23144,COSM,Clube de Orientação de Santa Maria,1459031,,23,Prova 5,2026-11-28T14:00:00.000,14:19
+106,H14A,849,Antônio Daniel Krüger,23006,COSM,Clube de Orientação de Santa Maria,8408153,,23,Prova 5,2026-11-28T14:00:00.000,14:14
+12,D Juvenil N,788,Manuela Machado Cezar,26022,COSM,Clube de Orientação de Santa Maria,1503425,,24,Prova 6,2026-11-29T09:00:00.000,09:13
+118,H21A,550,Rafael Jacques Bossi,15808,COSM,Clube de Orientação de Santa Maria,1100836,,23,Prova 5,2026-11-28T14:00:00.000,14:19
+34,H Juvenil N,775,Igor Moreira Fonseca,68015,COSM,Clube de Orientação de Santa Maria,1122887,,24,Prova 6,2026-11-29T09:00:00.000,09:06
+34,H Juvenil N,782,Jonatas da Roza Belisario da Silva,68017,COSM,Clube de Orientação de Santa Maria,1122885,,24,Prova 6,2026-11-29T09:00:00.000,09:24
+6,D Infantil N,784,Alicia Giovana Graffemberg Pinto,25010,COSM,Clube de Orientação de Santa Maria,1151049,,23,Prova 5,2026-11-28T14:00:00.000,14:06
+28,H Infantil N,786,Enio da Silva Fonseca Neto,68008,COSM,Clube de Orientação de Santa Maria,1503539,,23,Prova 5,2026-11-28T14:00:00.000,14:18
+28,H Infantil N,398,Lucas Sanches Soares da Silva,22359,COSM,Clube de Orientação de Santa Maria,1041937,,23,Prova 5,2026-11-28T14:00:00.000,14:30
+12,D Juvenil N,773,Paloma Nunes de Almeida,25019,COSM,Clube de Orientação de Santa Maria,1550049,,23,Prova 5,2026-11-28T14:00:00.000,14:07
+12,D Juvenil N,774,Livia Procópio Rosa,25018,COSM,Clube de Orientação de Santa Maria,1550048,,23,Prova 5,2026-11-28T14:00:00.000,14:25
+12,D Juvenil N,434,Luiza Borba da Silva,22390,COSM,Clube de Orientação de Santa Maria,1090984,,23,Prova 5,2026-11-28T14:00:00.000,14:31
+12,D Juvenil N,788,Manuela Machado Cezar,26022,COSM,Clube de Orientação de Santa Maria,1503425,,23,Prova 5,2026-11-28T14:00:00.000,14:19
+34,H Juvenil N,775,Igor Moreira Fonseca,68015,COSM,Clube de Orientação de Santa Maria,1122887,,23,Prova 5,2026-11-28T14:00:00.000,14:54
+34,H Juvenil N,782,Jonatas da Roza Belisario da Silva,68017,COSM,Clube de Orientação de Santa Maria,1122885,,23,Prova 5,2026-11-28T14:00:00.000,14:24
+34,H Juvenil N,783,Leonardo Barros da Rocha,25016,COSM,Clube de Orientação de Santa Maria,1503538,,23,Prova 5,2026-11-28T14:00:00.000,14:06
+44,HNA,805,Mauricio Aciol Machado,68024,COSM,Clube de Orientação de Santa Maria,1090982,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,823,Gabriel Borba Gomes,26013,COSM,Clube de Orientação de Santa Maria,1090985,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,866,João Gabriel Da Silva Gomes,30100,COSM,Clube de Orientação de Santa Maria,1503544,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,827,Luiz Alexandre Pereira,26020,COSM,Clube de Orientação de Santa Maria,1550046,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,820,Eduardo Degliuomini da Silva,26009,COSM,Clube de Orientação de Santa Maria,1503423,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,817,Andryus Vinicius Gonçalves Menezes Ferraz de Castro,26002,COSM,Clube de Orientação de Santa Maria,1503443,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,811,Davi Abdalla da Rosa,26007,COSM,Clube de Orientação de Santa Maria,1503449,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,791,Yandra de Matos Noronha,26034,COSM,Clube de Orientação de Santa Maria,1503536,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,818,Luiz Otavio Londero de Oliveira,26021,José Paim,Escola José Paim de Oliveira,1008873,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,815,Lorenzo de Mendonça Rodrigues,26018,José Paim,Escola José Paim de Oliveira,1200532,,23,Prova 5,2026-11-28T14:00:00.000,
+34,H Juvenil N,406,Matheus Sanches Soares da Silva,22366,COSM,Clube de Orientação de Santa Maria,1041934,,24,Prova 6,2026-11-29T09:00:00.000,09:36
+34,H Juvenil N,804,Bernardo Machado Cezar,26005,COSM,Clube de Orientação de Santa Maria,1503540,,24,Prova 6,2026-11-29T09:00:00.000,09:12
+44,HNA,900,Miguel Machado Bohrer,68044,COSM,Clube de Orientação de Santa Maria,1008802,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,805,Mauricio Aciol Machado,68024,COSM,Clube de Orientação de Santa Maria,1090982,,24,Prova 6,2026-11-29T09:00:00.000,
+34,H Juvenil N,778,Bernardo Pairé da Rocha Soares,68005,COSM,Clube de Orientação de Santa Maria,1122884,,24,Prova 6,2026-11-29T09:00:00.000,09:54
+44,HNA,823,Gabriel Borba Gomes,26013,COSM,Clube de Orientação de Santa Maria,1090985,,24,Prova 6,2026-11-29T09:00:00.000,
+12,D Juvenil N,891,Julia de Souza Ramires,68033,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1550044,,23,Prova 5,2026-11-28T14:00:00.000,14:13
+44,HNA,866,João Gabriel Da Silva Gomes,30100,COSM,Clube de Orientação de Santa Maria,1503544,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,888,Arthur Fernandes da Silva,68026,COSM,Clube de Orientação de Santa Maria,1151051,,23,Prova 5,2026-11-28T14:00:00.000,
+110,H16B,859,Lucas Kurkowski Paim,66048,COSM,Clube de Orientação de Santa Maria,1151033,,24,Prova 6,2026-11-29T09:00:00.000,09:00
+22,DNA,877,Ana Clara Cervo Schacker,68025,Indiv,Individual,1131523,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,893,Cauã Argenta da Silva,68029,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151035,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,887,Edward Machado Marques,68031,COSM,Clube de Orientação de Santa Maria,1550050,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,892,Flaviane Reis da Silva,68032,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1009111,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,889,Lavinia Oliveira Melo,68034,COSM,Clube de Orientação de Santa Maria,1090983,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,885,Lowrran de Matos Noronha,68037,COSM,Clube de Orientação de Santa Maria,1010931,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,890,Maria Eduarda Estello da Rocha,68040,José Paim,Escola José Paim de Oliveira,1151046,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,886,Mariana dos Santos Nascimento,68041,COSM,Clube de Orientação de Santa Maria,1550045,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,884,Pedro Henrique dos Santos Silva,68042,COSM,Clube de Orientação de Santa Maria,1122883,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,794,Alice Trindade Chagas,25101,COSM,Clube de Orientação de Santa Maria,1008686,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,792,Lívia Mendonça Fioravanti,22634,COSM,Clube de Orientação de Santa Maria,1008601,,23,Prova 5,2026-11-28T14:00:00.000,
+44,HNA,827,Luiz Alexandre Pereira,26020,COSM,Clube de Orientação de Santa Maria,1550046,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,820,Eduardo Degliuomini da Silva,26009,COSM,Clube de Orientação de Santa Maria,1503423,,24,Prova 6,2026-11-29T09:00:00.000,
+28,H Infantil N,880,Lorenzo Gabriel Polga Bordin,68036,Indiv,Individual,1131566,,23,Prova 5,2026-11-28T14:00:00.000,14:21
+44,HNA,817,Andryus Vinicius Gonçalves Menezes Ferraz de Castro,26002,COSM,Clube de Orientação de Santa Maria,1503443,,24,Prova 6,2026-11-29T09:00:00.000,
+109,H16A,410,Marcelo da Rosa Libardi,22371,COSM,Clube de Orientação de Santa Maria,1550051,,24,Prova 6,2026-11-29T09:00:00.000,09:07
+28,H Infantil N,800,João Vitor Rodrigues Alves,26016,José Paim,Escola José Paim de Oliveira,1550043,,24,Prova 6,2026-11-29T09:00:00.000,09:12
+44,HNA,811,Davi Abdalla da Rosa,26007,COSM,Clube de Orientação de Santa Maria,1503449,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,791,Yandra de Matos Noronha,26034,COSM,Clube de Orientação de Santa Maria,1503536,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,818,Luiz Otavio Londero de Oliveira,26021,José Paim,Escola José Paim de Oliveira,1008873,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,815,Lorenzo de Mendonça Rodrigues,26018,José Paim,Escola José Paim de Oliveira,1200532,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,888,Arthur Fernandes da Silva,68026,COSM,Clube de Orientação de Santa Maria,1151051,,24,Prova 6,2026-11-29T09:00:00.000,
+28,H Infantil N,785,Lorenzo Schmitt Rodrigues,68021,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1200529,,24,Prova 6,2026-11-29T09:00:00.000,09:21
+28,H Infantil N,807,Arthur Moreira Mendonça,26004,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151043,,24,Prova 6,2026-11-29T09:00:00.000,09:03
+28,H Infantil N,825,Murilo Mendonça Vieira dos Santos,25009,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1116237,,24,Prova 6,2026-11-29T09:00:00.000,09:24
+6,D Infantil N,795,Isabelly de Lima,26014,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151052,,24,Prova 6,2026-11-29T09:00:00.000,09:30
+12,D Juvenil N,891,Julia de Souza Ramires,68033,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1550044,,24,Prova 6,2026-11-29T09:00:00.000,09:25
+12,D Juvenil N,793,Ane Manuela Rodrigues Trindade,26003,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151053,,24,Prova 6,2026-11-29T09:00:00.000,09:07
+34,H Juvenil N,777,Luiz Gabriel Graffemberg Pinto,25003,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1070633,,24,Prova 6,2026-11-29T09:00:00.000,09:48
+28,H Infantil N,802,Miguel Rosa de Souza,25005,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1116238,,24,Prova 6,2026-11-29T09:00:00.000,09:00
+131,H50A,458,Everton Santos da Silva,2806,COSM,Clube de Orientação de Santa Maria,1008909,,24,Prova 6,2026-11-29T09:00:00.000,09:00
+44,HNA,893,Cauã Argenta da Silva,68029,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151035,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,899,Ezequiel Cardoso de Lima Xavier,68043,COSM,Clube de Orientação de Santa Maria,1416234,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,897,Paola Xisto,68045,COSM,Clube de Orientação de Santa Maria,1811161,,23,Prova 5,2026-11-28T14:00:00.000,
+22,DNA,794,Alice Trindade Chagas,25101,COSM,Clube de Orientação de Santa Maria,1008686,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,792,Lívia Mendonça Fioravanti,22634,COSM,Clube de Orientação de Santa Maria,1008601,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,899,Ezequiel Cardoso de Lima Xavier,68043,COSM,Clube de Orientação de Santa Maria,1416234,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,897,Paola Xisto,68045,COSM,Clube de Orientação de Santa Maria,1811161,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,900,Miguel Machado Bohrer,68044,COSM,Clube de Orientação de Santa Maria,1008802,,24,Prova 6,2026-11-29T09:00:00.000,
+67,D40A,328,Luceli Nascimento de Brito,20042,ROTA 405,Clube de Orientação Rota 405,1811156,,23,Prova 5,2026-11-28T14:00:00.000,14:01
+137,H60A,341,Paulo Calisto Becker,899,COrESC,Clube de Orientação do Extremo Sul Catarinense,1963029,,23,Prova 5,2026-11-28T14:00:00.000,14:19
+57,D20A,281,Ana Clara Garske Lopes,9341,COSM,Clube de Orientação de Santa Maria,8543217,,23,Prova 5,2026-11-28T14:00:00.000,14:25
+6,D Infantil N,369,Manuella Domingues Dias,22338,COSM,Clube de Orientação de Santa Maria,1100837,,24,Prova 6,2026-11-29T09:00:00.000,09:33
+51,D16A,371,Bianca Trindade Chagas,20642,COSM,Clube de Orientação de Santa Maria,8539644,,24,Prova 6,2026-11-29T09:00:00.000,09:19
+62,D21E,492,Nelci de Souza,18352,COSM,Clube de Orientação de Santa Maria,1070636,,24,Prova 6,2026-11-29T09:00:00.000,09:02
+62,D21E,324,Juliane Valéria de Carvalho Mendonça,2734,COSM,Clube de Orientação de Santa Maria,8028903,,24,Prova 6,2026-11-29T09:00:00.000,09:08
+28,H Infantil N,365,Theo Mendonça Fioravanti,19773,COSM,Clube de Orientação de Santa Maria,8408142,,24,Prova 6,2026-11-29T09:00:00.000,09:15
+118,H21A,839,Luis Carlos Chagas,4973,COSM,Clube de Orientação de Santa Maria,8408136,,24,Prova 6,2026-11-29T09:00:00.000,09:49
+73,D50A,96,Vanessa Tassinari Ragazzon,2240,ROTA 405,Clube de Orientação Rota 405,2128457,,23,Prova 5,2026-11-28T14:00:00.000,14:31
+62,D21E,127,Elaine Dalmares Lenz,7987,COSM,Clube de Orientação de Santa Maria,8645002,,23,Prova 5,2026-11-28T14:00:00.000,14:08
+122,H35A,50,Leon Munhoz da Rosa,7883,COSM,Clube de Orientação de Santa Maria,1419694,,23,Prova 5,2026-11-28T14:00:00.000,14:24
+118,H21A,841,Maurício Pivotto Viera,13830,COSM,Clube de Orientação de Santa Maria,1407370,,23,Prova 5,2026-11-28T14:00:00.000,14:07
+118,H21A,835,Tailan Oliveira Rosa,23762,COSM,Clube de Orientação de Santa Maria,8546982,,23,Prova 5,2026-11-28T14:00:00.000,14:01
+22,DNA,901,Alice Rodrigues Vieira,68046,COS,Clube de Orientação de Santiago,1041924,,23,Prova 5,2026-11-28T14:00:00.000,
+132,H50B,852,Alexsandro Tauchen de Toledo,23861,COSM,Clube de Orientação de Santa Maria,1041929,,23,Prova 5,2026-11-28T14:00:00.000,14:12
+118,H21A,872,Gabriel Vargas Bastos,31921,COESA,Clube de Orientação da Escola de Sargentos das Armas,1041942,,23,Prova 5,2026-11-28T14:00:00.000,14:43
+22,DNA,901,Alice Rodrigues Vieira,68046,COS,Clube de Orientação de Santiago,1041924,,24,Prova 6,2026-11-29T09:00:00.000,
+51,D16A,440,Ludimila Carvalho Silva,22395,COSM,Clube de Orientação de Santa Maria,2163169,,23,Prova 5,2026-11-28T14:00:00.000,14:13
+129,H45B,497,Elvio Dias da Rosa,23547,COSM,Clube de Orientação de Santa Maria,2233456,,23,Prova 5,2026-11-28T14:00:00.000,14:00
+104,H12B,498,Enzo Oliveira da Rosa,23042,COSM,Clube de Orientação de Santa Maria,2233599,,23,Prova 5,2026-11-28T14:00:00.000,14:08
+58,D20B,436,Helena Ilha dos Santos,22392,COSM,Clube de Orientação de Santa Maria,2166985,,23,Prova 5,2026-11-28T14:00:00.000,14:18
+118,H21A,838,Javã Rodrigues de Sousa,23324,COSM,Clube de Orientação de Santa Maria,1010314,,23,Prova 5,2026-11-28T14:00:00.000,14:37
+62,D21E,479,Luiza Eduarda Wachtmann Rizzatti,22593,COSM,Clube de Orientação de Santa Maria,8525874,,23,Prova 5,2026-11-28T14:00:00.000,14:14
+137,H60A,308,Fernando Ferreira Elesbão,20822,COSM,Clube de Orientação de Santa Maria,1041925,,23,Prova 5,2026-11-28T14:00:00.000,14:13
+118,H21A,389,Arthur Coimbra de Souza Braga,13829,COSM,Clube de Orientação de Santa Maria,2059401,,23,Prova 5,2026-11-28T14:00:00.000,14:25
+110,H16B,858,Guilherme Etcheverria Monteiro,23666,COSM,Clube de Orientação de Santa Maria,2228483,,23,Prova 5,2026-11-28T14:00:00.000,14:30
+26,H Adulto N,507,Artur de Oliveira Peres,22410,COSM,Clube de Orientação de Santa Maria,1041931,,23,Prova 5,2026-11-28T14:00:00.000,15:00
+119,H21B,873,Marco Antonio Selent,68039,Indiv,Individual,1811166,,23,Prova 5,2026-11-28T14:00:00.000,14:03
+137,H60A,70,Elvandir de Vargas,8,COSM,Clube de Orientação de Santa Maria,1394525,,23,Prova 5,2026-11-28T14:00:00.000,14:01
+126,H40B,854,Carlos Marcel Cunha,23370,COSM,Clube de Orientação de Santa Maria,1041938,,23,Prova 5,2026-11-28T14:00:00.000,14:09
+131,H50A,867,Gilson Schropfer,1868,CASUSA,Casa dos Subtenentes e Sargentos de Santo Ângelo,1008656,,23,Prova 5,2026-11-28T14:00:00.000,14:42
+106,H14A,879,Felipe Daniel Buriol,23665,COSM,Clube de Orientação de Santa Maria,2159965,,23,Prova 5,2026-11-28T14:00:00.000,14:08
+128,H45A,95,Giuliano Ragazzon,17923,ROTA 405,Clube de Orientação Rota 405,2128380,,23,Prova 5,2026-11-28T14:00:00.000,14:00
+134,H55A,67,Valmor Niedermayer,33,COSC,Clube de Orientação de Santa Cruz,8225352,,23,Prova 5,2026-11-28T14:00:00.000,14:02
+120,H21E,263,Matheus Moreira da Silva,14075,COSM,Clube de Orientação de Santa Maria,8546942,,23,Prova 5,2026-11-28T14:00:00.000,14:15
+18,D Sênior N,402,Leandra Medeiros Spezzapria,22293,COSM,Clube de Orientação de Santa Maria,2159503,,23,Prova 5,2026-11-28T14:00:00.000,14:01
+109,H16A,846,Luidgi Rafael Polga Bordin,23059,COSM,Clube de Orientação de Santa Maria,2159961,,23,Prova 5,2026-11-28T14:00:00.000,14:25
+107,H14B,882,Gabriel Castagna dos Santos Robaina,24447,COSM,Clube de Orientação de Santa Maria,1151047,,23,Prova 5,2026-11-28T14:00:00.000,14:14
+79,D60A,294,Alceni Melo Garcia,1400,COSC,Clube de Orientação de Santa Cruz,1393006,,23,Prova 5,2026-11-28T14:00:00.000,14:26
+125,H40A,345,Rafael Grenzel,20487,COS,Clube de Orientação de Santiago,1503438,,23,Prova 5,2026-11-28T14:00:00.000,14:36
+137,H60A,207,José Nilton Silva Vargas,38,COSM,Clube de Orientação de Santa Maria,1200521,,23,Prova 5,2026-11-28T14:00:00.000,14:07
+129,H45B,881,Ramiro dos Santos Bohrer,30,COSM,Clube de Orientação de Santa Maria,1100859,,23,Prova 5,2026-11-28T14:00:00.000,14:03
+128,H45A,853,Fábio Fernandes Martins,26012,Indiv,Individual,1131554,,23,Prova 5,2026-11-28T14:00:00.000,14:12
+109,H16A,848,Lorenzo Manfio Engelmann,23044,COSM,Clube de Orientação de Santa Maria,8408157,,23,Prova 5,2026-11-28T14:00:00.000,14:37
+34,H Juvenil N,406,Matheus Sanches Soares da Silva,22366,COSM,Clube de Orientação de Santa Maria,1041934,,23,Prova 5,2026-11-28T14:00:00.000,14:36
+34,H Juvenil N,804,Bernardo Machado Cezar,26005,COSM,Clube de Orientação de Santa Maria,1503540,,23,Prova 5,2026-11-28T14:00:00.000,14:42
+34,H Juvenil N,781,Arthur da Silva Gomes,68004,COSM,Clube de Orientação de Santa Maria,1503552,,23,Prova 5,2026-11-28T14:00:00.000,14:12
+34,H Juvenil N,411,Arthur Luis Sotero Dornelles,22372,COSM,Clube de Orientação de Santa Maria,1166666,,23,Prova 5,2026-11-28T14:00:00.000,14:48
+49,D14B,450,Gabriele Carvalho Silva,68014,COSM,Clube de Orientação de Santa Maria,1090981,,23,Prova 5,2026-11-28T14:00:00.000,14:02
+34,H Juvenil N,515,Alisson Martins dos Santos,68003,COSM,Clube de Orientação de Santa Maria,1503534,,23,Prova 5,2026-11-28T14:00:00.000,14:30
+34,H Juvenil N,778,Bernardo Pairé da Rocha Soares,68005,COSM,Clube de Orientação de Santa Maria,1122884,,23,Prova 5,2026-11-28T14:00:00.000,14:18
+110,H16B,859,Lucas Kurkowski Paim,66048,COSM,Clube de Orientação de Santa Maria,1151033,,23,Prova 5,2026-11-28T14:00:00.000,14:33
+109,H16A,410,Marcelo da Rosa Libardi,22371,COSM,Clube de Orientação de Santa Maria,1550051,,23,Prova 5,2026-11-28T14:00:00.000,14:31
+28,H Infantil N,800,João Vitor Rodrigues Alves,26016,José Paim,Escola José Paim de Oliveira,1550043,,23,Prova 5,2026-11-28T14:00:00.000,14:24
+134,H55A,342,Paulo Moacir Castro Dorneles,17261,COSM,Clube de Orientação de Santa Maria,1090995,,23,Prova 5,2026-11-28T14:00:00.000,14:08
+122,H35A,404,Vinicius Matté,22749,COSM,Clube de Orientação de Santa Maria,8543332,,23,Prova 5,2026-11-28T14:00:00.000,14:18
+120,H21E,300,Cleber Baratto Vidal,1315,COSM,Clube de Orientação de Santa Maria,1603796,,23,Prova 5,2026-11-28T14:00:00.000,14:03
+122,H35A,834,Vanderlei José Bortoli,1860,COSM,Clube de Orientação de Santa Maria,8408133,,23,Prova 5,2026-11-28T14:00:00.000,14:30
+106,H14A,327,Lucas Chitolina Bortoli,21664,COSM,Clube de Orientação de Santa Maria,1008855,,23,Prova 5,2026-11-28T14:00:00.000,14:02
+128,H45A,140,Marco Antônio Pedroso da Rosa,7741,BAVECO,Barriga Verde Clube de Orientação,1200536,,23,Prova 5,2026-11-28T14:00:00.000,14:06
+118,H21A,478,Bruno Oliveira Rizzatti,1279,COSM,Clube de Orientação de Santa Maria,8408132,,23,Prova 5,2026-11-28T14:00:00.000,14:31
+28,H Infantil N,874,Mathias Saccol Rizzatti,22612,COSM,Clube de Orientação de Santa Maria,7001279,,23,Prova 5,2026-11-28T14:00:00.000,14:27
+119,H21B,855,Luciano Silva de Bastos,10803,COSM,Clube de Orientação de Santa Maria,1413021,,23,Prova 5,2026-11-28T14:00:00.000,14:15
+61,D21B,876,Bianca Schmitt Basso,24316,COSM,Clube de Orientação de Santa Maria,2166986,,23,Prova 5,2026-11-28T14:00:00.000,14:27
+115,H20A,430,Erick Dias Knorst,22386,COSM,Clube de Orientação de Santa Maria,2167280,,23,Prova 5,2026-11-28T14:00:00.000,14:14
+28,H Infantil N,785,Lorenzo Schmitt Rodrigues,68021,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1200529,,23,Prova 5,2026-11-28T14:00:00.000,14:12
+28,H Infantil N,807,Arthur Moreira Mendonça,26004,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151043,,23,Prova 5,2026-11-28T14:00:00.000,14:36
+28,H Infantil N,825,Murilo Mendonça Vieira dos Santos,25009,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1116237,,23,Prova 5,2026-11-28T14:00:00.000,14:15
+6,D Infantil N,795,Isabelly de Lima,26014,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151052,,23,Prova 5,2026-11-28T14:00:00.000,14:03
+12,D Juvenil N,793,Ane Manuela Rodrigues Trindade,26003,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1151053,,23,Prova 5,2026-11-28T14:00:00.000,14:37
+34,H Juvenil N,777,Luiz Gabriel Graffemberg Pinto,25003,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1070633,,23,Prova 5,2026-11-28T14:00:00.000,14:00
+28,H Infantil N,802,Miguel Rosa de Souza,25005,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1116238,,23,Prova 5,2026-11-28T14:00:00.000,14:33
+123,H35B,875,Milton Oliveira Vieira,14323,COS,Clube de Orientação de Santiago,1041927,,24,Prova 6,2026-11-29T09:00:00.000,09:18
+6,D Infantil N,369,Manuella Domingues Dias,22338,COSM,Clube de Orientação de Santa Maria,1100837,,23,Prova 5,2026-11-28T14:00:00.000,14:00
+51,D16A,371,Bianca Trindade Chagas,20642,COSM,Clube de Orientação de Santa Maria,8539644,,23,Prova 5,2026-11-28T14:00:00.000,14:07
+62,D21E,492,Nelci de Souza,18352,COSM,Clube de Orientação de Santa Maria,1070636,,23,Prova 5,2026-11-28T14:00:00.000,14:26
+106,H14A,407,Kevyn Ryan Borba Squarcieri,22368,COSM,Clube de Orientação de Santa Maria,2167285,,23,Prova 5,2026-11-28T14:00:00.000,14:20
+52,D16B,408,Manuela Bicca Luccas,22369,COSM,Clube de Orientação de Santa Maria,2166981,,23,Prova 5,2026-11-28T14:00:00.000,14:21
+132,H50B,852,Alexsandro Tauchen de Toledo,23861,COSM,Clube de Orientação de Santa Maria,1041929,,24,Prova 6,2026-11-29T09:00:00.000,09:42
+62,D21E,324,Juliane Valéria de Carvalho Mendonça,2734,COSM,Clube de Orientação de Santa Maria,8028903,,23,Prova 5,2026-11-28T14:00:00.000,14:20
+28,H Infantil N,365,Theo Mendonça Fioravanti,19773,COSM,Clube de Orientação de Santa Maria,8408142,,23,Prova 5,2026-11-28T14:00:00.000,14:09
+118,H21A,839,Luis Carlos Chagas,4973,COSM,Clube de Orientação de Santa Maria,8408136,,23,Prova 5,2026-11-28T14:00:00.000,14:13
+118,H21A,553,Rafael Gomes de Oliveira,10742,COSM,Clube de Orientação de Santa Maria,8546860,,23,Prova 5,2026-11-28T14:00:00.000,14:49
+120,H21E,829,Larri Gabriel Hermes Lemes,15263,COSM,Clube de Orientação de Santa Maria,8681446,,23,Prova 5,2026-11-28T14:00:00.000,14:09
+131,H50A,898,José Carlos Pascotini,1903,COSM,Clube de Orientação de Santa Maria,1009001,,23,Prova 5,2026-11-28T14:00:00.000,14:48
+131,H50A,831,Vitor Ribeiro Dias,627,COSM,Clube de Orientação de Santa Maria,1070637,,23,Prova 5,2026-11-28T14:00:00.000,14:54
+131,H50A,458,Everton Santos da Silva,2806,COSM,Clube de Orientação de Santa Maria,1008909,,23,Prova 5,2026-11-28T14:00:00.000,15:00
+123,H35B,875,Milton Oliveira Vieira,14323,COS,Clube de Orientação de Santiago,1041927,,23,Prova 5,2026-11-28T14:00:00.000,14:24
+62,D21E,250,Letícia Forgiarini Tonetto,19074,COSM,Clube de Orientação de Santa Maria,1090991,,23,Prova 5,2026-11-28T14:00:00.000,14:02
+26,H Adulto N,507,Artur de Oliveira Peres,22410,COSM,Clube de Orientação de Santa Maria,1041931,,24,Prova 6,2026-11-29T09:00:00.000,09:00
+126,H40B,854,Carlos Marcel Cunha,23370,COSM,Clube de Orientação de Santa Maria,1041938,,24,Prova 6,2026-11-29T09:00:00.000,09:48
+62,D21E,250,Letícia Forgiarini Tonetto,19074,COSM,Clube de Orientação de Santa Maria,1090991,,24,Prova 6,2026-11-29T09:00:00.000,09:26
+134,H55A,342,Paulo Moacir Castro Dorneles,17261,COSM,Clube de Orientação de Santa Maria,1090995,,24,Prova 6,2026-11-29T09:00:00.000,09:08
+129,H45B,881,Ramiro dos Santos Bohrer,30,COSM,Clube de Orientação de Santa Maria,1100859,,24,Prova 6,2026-11-29T09:00:00.000,09:54
+128,H45A,853,Fábio Fernandes Martins,26012,Indiv,Individual,1131554,,24,Prova 6,2026-11-29T09:00:00.000,09:48
+119,H21B,857,Jardel da Silva,14394,COSM,Clube de Orientação de Santa Maria,1811153,,24,Prova 6,2026-11-29T09:00:00.000,09:02
+126,H40B,878,Luigi Schacker,68038,Indiv,Individual,1151059,,23,Prova 5,2026-11-28T14:00:00.000,14:06
+119,H21B,856,Vitor Juliane Moreira Assunção,10614,COSM,Clube de Orientação de Santa Maria,2167272,,23,Prova 5,2026-11-28T14:00:00.000,14:09
+119,H21B,856,Vitor Juliane Moreira Assunção,10614,COSM,Clube de Orientação de Santa Maria,2167272,,24,Prova 6,2026-11-29T09:00:00.000,09:20
+118,H21A,553,Rafael Gomes de Oliveira,10742,COSM,Clube de Orientação de Santa Maria,8546860,,24,Prova 6,2026-11-29T09:00:00.000,09:01
+120,H21E,829,Larri Gabriel Hermes Lemes,15263,COSM,Clube de Orientação de Santa Maria,8681446,,24,Prova 6,2026-11-29T09:00:00.000,09:09
+131,H50A,898,José Carlos Pascotini,1903,COSM,Clube de Orientação de Santa Maria,1009001,,24,Prova 6,2026-11-29T09:00:00.000,09:12
+131,H50A,831,Vitor Ribeiro Dias,627,COSM,Clube de Orientação de Santa Maria,1070637,,24,Prova 6,2026-11-29T09:00:00.000,09:06
+134,H55A,67,Valmor Niedermayer,33,COSC,Clube de Orientação de Santa Cruz,8225352,,24,Prova 6,2026-11-29T09:00:00.000,09:14
+62,D21E,479,Luiza Eduarda Wachtmann Rizzatti,22593,COSM,Clube de Orientação de Santa Maria,8525874,,24,Prova 6,2026-11-29T09:00:00.000,09:14
+122,H35A,404,Vinicius Matté,22749,COSM,Clube de Orientação de Santa Maria,8543332,,24,Prova 6,2026-11-29T09:00:00.000,09:42
+120,H21E,300,Cleber Baratto Vidal,1315,COSM,Clube de Orientação de Santa Maria,1603796,,24,Prova 6,2026-11-29T09:00:00.000,09:15
+122,H35A,834,Vanderlei José Bortoli,1860,COSM,Clube de Orientação de Santa Maria,8408133,,24,Prova 6,2026-11-29T09:00:00.000,09:30
+106,H14A,327,Lucas Chitolina Bortoli,21664,COSM,Clube de Orientação de Santa Maria,1008855,,24,Prova 6,2026-11-29T09:00:00.000,09:20
+128,H45A,140,Marco Antônio Pedroso da Rosa,7741,BAVECO,Barriga Verde Clube de Orientação,1200536,,24,Prova 6,2026-11-29T09:00:00.000,09:54
+118,H21A,478,Bruno Oliveira Rizzatti,1279,COSM,Clube de Orientação de Santa Maria,8408132,,24,Prova 6,2026-11-29T09:00:00.000,09:25
+28,H Infantil N,874,Mathias Saccol Rizzatti,22612,COSM,Clube de Orientação de Santa Maria,7001279,,24,Prova 6,2026-11-29T09:00:00.000,09:09
+119,H21B,855,Luciano Silva de Bastos,10803,COSM,Clube de Orientação de Santa Maria,1413021,,24,Prova 6,2026-11-29T09:00:00.000,09:08
+61,D21B,876,Bianca Schmitt Basso,24316,COSM,Clube de Orientação de Santa Maria,2166986,,24,Prova 6,2026-11-29T09:00:00.000,09:12
+115,H20A,430,Erick Dias Knorst,22386,COSM,Clube de Orientação de Santa Maria,2167280,,24,Prova 6,2026-11-29T09:00:00.000,09:02
+106,H14A,407,Kevyn Ryan Borba Squarcieri,22368,COSM,Clube de Orientação de Santa Maria,2167285,,24,Prova 6,2026-11-29T09:00:00.000,09:02
+52,D16B,408,Manuela Bicca Luccas,22369,COSM,Clube de Orientação de Santa Maria,2166981,,24,Prova 6,2026-11-29T09:00:00.000,09:24
+51,D16A,440,Ludimila Carvalho Silva,22395,COSM,Clube de Orientação de Santa Maria,2163169,,24,Prova 6,2026-11-29T09:00:00.000,09:13
+129,H45B,497,Elvio Dias da Rosa,23547,COSM,Clube de Orientação de Santa Maria,2233456,,24,Prova 6,2026-11-29T09:00:00.000,10:00
+104,H12B,498,Enzo Oliveira da Rosa,23042,COSM,Clube de Orientação de Santa Maria,2233599,,24,Prova 6,2026-11-29T09:00:00.000,09:09
+58,D20B,436,Helena Ilha dos Santos,22392,COSM,Clube de Orientação de Santa Maria,2166985,,24,Prova 6,2026-11-29T09:00:00.000,09:30
+118,H21A,838,Javã Rodrigues de Sousa,23324,COSM,Clube de Orientação de Santa Maria,1010314,,24,Prova 6,2026-11-29T09:00:00.000,09:07
+51,D16A,845,Manuela Cardoso da Rosa,23144,COSM,Clube de Orientação de Santa Maria,1459031,,24,Prova 6,2026-11-29T09:00:00.000,09:07
+106,H14A,849,Antônio Daniel Krüger,23006,COSM,Clube de Orientação de Santa Maria,8408153,,24,Prova 6,2026-11-29T09:00:00.000,09:08
+137,H60A,308,Fernando Ferreira Elesbão,20822,COSM,Clube de Orientação de Santa Maria,1041925,,24,Prova 6,2026-11-29T09:00:00.000,09:19
+118,H21A,389,Arthur Coimbra de Souza Braga,13829,COSM,Clube de Orientação de Santa Maria,2059401,,24,Prova 6,2026-11-29T09:00:00.000,09:19
+110,H16B,858,Guilherme Etcheverria Monteiro,23666,COSM,Clube de Orientação de Santa Maria,2228483,,24,Prova 6,2026-11-29T09:00:00.000,09:06
+131,H50A,867,Gilson Schropfer,1868,CASUSA,Casa dos Subtenentes e Sargentos de Santo Ângelo,1008656,,24,Prova 6,2026-11-29T09:00:00.000,09:18
+106,H14A,879,Felipe Daniel Buriol,23665,COSM,Clube de Orientação de Santa Maria,2159965,,24,Prova 6,2026-11-29T09:00:00.000,09:14
+62,D21E,127,Elaine Dalmares Lenz,7987,COSM,Clube de Orientação de Santa Maria,8645002,,24,Prova 6,2026-11-29T09:00:00.000,09:20
+137,H60A,70,Elvandir de Vargas,8,COSM,Clube de Orientação de Santa Maria,1394525,,24,Prova 6,2026-11-29T09:00:00.000,09:31
+107,H14B,882,Gabriel Castagna dos Santos Robaina,24447,COSM,Clube de Orientação de Santa Maria,1151047,,24,Prova 6,2026-11-29T09:00:00.000,09:03
+125,H40A,345,Rafael Grenzel,20487,COS,Clube de Orientação de Santiago,1503438,,24,Prova 6,2026-11-29T09:00:00.000,09:24
+137,H60A,207,José Nilton Silva Vargas,38,COSM,Clube de Orientação de Santa Maria,1200521,,24,Prova 6,2026-11-29T09:00:00.000,09:25
+34,H Juvenil N,781,Arthur da Silva Gomes,68004,COSM,Clube de Orientação de Santa Maria,1503552,,24,Prova 6,2026-11-29T09:00:00.000,10:00
+34,H Juvenil N,411,Arthur Luis Sotero Dornelles,22372,COSM,Clube de Orientação de Santa Maria,1166666,,24,Prova 6,2026-11-29T09:00:00.000,09:18
+49,D14B,450,Gabriele Carvalho Silva,68014,COSM,Clube de Orientação de Santa Maria,1090981,,24,Prova 6,2026-11-29T09:00:00.000,09:15
+34,H Juvenil N,515,Alisson Martins dos Santos,68003,COSM,Clube de Orientação de Santa Maria,1503534,,24,Prova 6,2026-11-29T09:00:00.000,09:30
+34,H Juvenil N,783,Leonardo Barros da Rocha,25016,COSM,Clube de Orientação de Santa Maria,1503538,,24,Prova 6,2026-11-29T09:00:00.000,09:42
+119,H21B,895,Arthur Henrique Dahlen,68027,Indiv,Individual,1131528,,24,Prova 6,2026-11-29T09:00:00.000,09:14
+119,H21B,894,Douglas Trindade Pereira,68030,Indiv,Individual,1131552,,24,Prova 6,2026-11-29T09:00:00.000,09:26
+118,H21A,550,Rafael Jacques Bossi,15808,COSM,Clube de Orientação de Santa Maria,1100836,,24,Prova 6,2026-11-29T09:00:00.000,09:31
+118,H21A,872,Gabriel Vargas Bastos,31921,COESA,Clube de Orientação da Escola de Sargentos das Armas,1041942,,24,Prova 6,2026-11-29T09:00:00.000,09:13
+44,HNA,887,Edward Machado Marques,68031,COSM,Clube de Orientação de Santa Maria,1550050,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,892,Flaviane Reis da Silva,68032,Hylda Vasconcel,Escola Professora Hylda Vasconcelos,1009111,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,889,Lavinia Oliveira Melo,68034,COSM,Clube de Orientação de Santa Maria,1090983,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,885,Lowrran de Matos Noronha,68037,COSM,Clube de Orientação de Santa Maria,1010931,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,890,Maria Eduarda Estello da Rocha,68040,José Paim,Escola José Paim de Oliveira,1151046,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,886,Mariana dos Santos Nascimento,68041,COSM,Clube de Orientação de Santa Maria,1550045,,24,Prova 6,2026-11-29T09:00:00.000,
+44,HNA,884,Pedro Henrique dos Santos Silva,68042,COSM,Clube de Orientação de Santa Maria,1122883,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,896,Caroline de Souza Becker,68028,Indiv,Individual,1131529,,24,Prova 6,2026-11-29T09:00:00.000,
+22,DNA,883,Lidiane Silva Costa,68035,Indiv,Individual,1131557,,24,Prova 6,2026-11-29T09:00:00.000,
